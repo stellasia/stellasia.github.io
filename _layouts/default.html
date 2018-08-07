@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+    {% include head.html %}
+
+    <body>
+
+	<div class="page">
+	    <header>
+		<img alt="profile image" src="/img/avatar.jpg">
+		<hgroup>
+		    <h1><a href="{{ "/" | prepend: site.baseurl }}">Estelle Scifo</a></h1>
+		    <h2>Data Scientist - Physicist</h2>
+		</hgroup>
+		<nav>
+		    <ul>
+			<li><a href="/">Home</a></li>
+			<li><a href="/about">About</a></li>
+			<li><a href="/blog">Blog</a></li>
+			<li><a href="/tutorials">Tutorials</a></li>
+			<li><a href="/cv">CV & Contact</a></li>	      
+		    </ul>
+		</nav>
+	    </header>
+
+	    <p class="clear"></p>
+
+	    <div class="content">
+
+		{{ content }}
+
+	    </div>
+
+	    <div class="asides">
+		<aside>
+		    <h1>Find me on:</h1>      
+		    <ul class="social-list">
+			<li>
+			    <a href="https://github.com/stellasia">
+				<i class="icon">{% include icon-github.svg %}</i>github.com/stellasia
+			    </a>
+			</li>
+			<li>
+			    <a href="https://www.linkedin.com/in/estellescifo">
+				<i class="icon">{% include icon-linkedin.svg %}</i>linkedin.com/in/estellescifo
+			    </a>
+			</li>
+		    </ul>
+		</aside>
+		
+		<aside>
+		    <h1>About</h1>
+		    <p>
+			After a PhD in particle physics on CERN experiment, I moved to the data science field, where I like to build mathematical models on various problems...
+			<a class="more" href="{{ "/about.html" | prepend: site.baseurl }}">more <i class="icon">{% include icon-right-caret.svg %}</i></a>
+		    </p>
+		</aside>
+	    </div>
+	    <p class="clear"></p>
+	    <footer>
+		<p>This site is powered by <a href="http://jekyllrb.com/">Jekyll</a> and is hosted on <a href="http://pages.github.com">GitHub Pages</a>.</p>
+		<p>Copyright: Estelle Scifo 2018 - . Opinions are mine.</p>
+	    </footer>
+	</div>
+    </body>
+
+    
+</html>

@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<section class="list">
+    <h1><span>Last <a href="/blog">blog</a> articles</span></h1>
+    {% capture current_year %}{{ site.time | date: "%Y" }}{% endcapture %}
+    <section class="post-list">
+	<ul>
+	    {% for post in site.posts limit: 10%}
+	    <li>
+		<h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+		<span class="date">{{ post.date | date: "%b %Y" }}</span>
+		<span class="summary">{{ post.summary }}</span>
+	    </li>	    
+	    {% endfor %}
+	</ul>
+    </section>
+</section>
+
+
+<section class="list">
+    <h1><span>Available <a href="/tutorials">tutorials</a></span></h1>
+    <section>
+	<ul>
+	    {% for post in site.tutorials reversed %}
+	    <li>
+		<h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+		<span class="date">{{ post.date | date: "%b %Y" }}</span>
+		<span class="summary">{{ post.summary }}</span>
+	    </li>	 
+	    {% endfor %}
+	</ul>
+    </section>
+</section>

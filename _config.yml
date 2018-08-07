@@ -1,0 +1,29 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Estelle Scifo - Data scientist
+email: 
+description: > # this means to ignore newlines until "baseurl:"
+  This is Estelle Scifo' personal website. Talking about data, science, data science, python, physics and other cool things.
+baseurl: "" # the subpath of your site, e.g. /blog
+permalink: /:year/:month/:title.html
+timezone: Europe/Paris
+lsi: true
+
+# Build settings
+markdown: kramdown
+exclude: [
+  "Gemfile",
+  "Gemfile.lock"
+]
+
+collections:
+  posts:
+    permalink: /blog/:path/
+  tutorials:
+    permalink: /tutorial/:path/
