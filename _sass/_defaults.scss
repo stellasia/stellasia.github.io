@@ -3,20 +3,26 @@
  */
 
 $page_background_color: #222;
-$content_background_color: #EEE;
+$content_background_color: #FFF;
 $header_background_color: #222;
-$link_color: #555;
-$default_font_color: #222;
-$header_font_color: #EEE;
+$default_font_color: #000;
+$link_color: $default_font_color;
+$link_hover_color: royalblue;
+$header_font_color: #FFF;
+$aside_font_color: #888;
 
 body {
     color: $default_font_color;
     background-color: $page_background_color;
+    font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 a {
     color: $link_color;
     cursor: pointer;
+}
+a:hover {
+    color: $link_hover_color;
 }
 
 p.clear {
@@ -24,43 +30,49 @@ p.clear {
 }
 
 .page {
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
     background-color: $content_background_color;
     overflow: auto;
     header {
-        display: block;
-        position: relative;
-        top: 0;
         background-color: $header_background_color;
         color: $header_font_color;
         overflow: hidden;
-        margin-bottom: 3em;
-
+        margin-bottom: 2em;
+	position: relative;
         img {
-            position: relative;
             width: 100px;
             float: left;
         }
         hgroup {
             position: relative;
-       	    top: 18px;
+	    display: inline-block;
     	    left: 10px;
  	    a {
 	        text-decoration: none;
 	        color: $header_font_color;
 	    }
         }
+	.avatar-and-title {
+            position: relative;
+	    display: inline-block;
+	}
         nav {
-            float: right;
+	    display: inline-block;
+	    position: absolute;
+	    right: 2px;
+	    bottom: 2px;
 	    margin: 0;
     	    padding: 0;
+	    margin-right: 20px;
    	    li {
 	        display: inline;
   	        list-style: none;
-	        margin-left: 1.1em;
-		margin-right: 20px;
+	        margin-left: 0.5em;
 		font-size: 1.5em;
+	    }
+	    a {
+	        color: $aside_font_color;
 	    }
         }   
     }
@@ -74,16 +86,23 @@ p.clear {
         position: relative;
         top: 5px;
     	left: 5px;
+	color: $aside_font_color;
 	.social-list {
 	    padding-bottom: 1.1em;
 	    li {
-                padding: 0.5em;
+                padding: 0.2em;
 	    }
         }
        .icon > svg {
             height: 0.9em;
             width: 0.9em;
-        }	
+        }
+	h2 {
+            font-variant: small-caps;
+        }
+	a {
+	    color: $aside_font_color;
+	}
     }
     .content {
     }
@@ -91,7 +110,7 @@ p.clear {
         background-color: $page_background_color;
 	color: $header_font_color;
         text-align: center;
-	font-size: 0.7em;
+	font-size: 0.6em;
 	a {
 	    color: $header_font_color;
         }

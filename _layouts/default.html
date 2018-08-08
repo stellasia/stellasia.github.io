@@ -7,11 +7,13 @@
 
 	<div class="page">
 	    <header>
-		<img alt="profile image" src="/img/avatar.jpg">
-		<hgroup>
-		    <h1><a href="{{ "/" | prepend: site.baseurl }}">Estelle Scifo</a></h1>
-		    <h2>Data Scientist - Physicist</h2>
-		</hgroup>
+		<div class="avatar-and-title">
+		    <img alt="profile image" src="/img/avatar.jpg">
+		    <hgroup>
+			<h1><a href="{{ "/" | prepend: site.baseurl }}">Estelle Scifo</a></h1>
+			<h2>Data Scientist - Physicist</h2>
+		    </hgroup>
+		</div>
 		<nav>
 		    <ul>
 			<li><a href="/">Home</a></li>
@@ -33,26 +35,35 @@
 
 	    <div class="asides">
 		<aside>
-		    <h1>Find me on:</h1>      
+		    <h2>Find me on</h2>
 		    <ul class="social-list">
+			<li>
+			    <a href="https://www.linkedin.com/in/estellescifo">
+				<i class="icon">{% include icon-linkedin.svg %}</i>linkedin.com/in/estellescifo
+			    </a>
+			</li>
 			<li>
 			    <a href="https://github.com/stellasia">
 				<i class="icon">{% include icon-github.svg %}</i>github.com/stellasia
 			    </a>
 			</li>
 			<li>
-			    <a href="https://www.linkedin.com/in/estellescifo">
-				<i class="icon">{% include icon-linkedin.svg %}</i>linkedin.com/in/estellescifo
+			    <a href="https://twitter.com/st3llasia">
+				<i class="icon">{% include icon-twitter.svg %}</i>@st3llasia
+			    </a>
+			</li>
+			<li>
+			    <a href="https://stackoverflow.com/users/4709400/stellasia">
+				<i class="icon">{% include icon-stack-exchange.svg %}</i>stellasia
 			    </a>
 			</li>
 		    </ul>
 		</aside>
 		
 		<aside>
-		    <h1>About</h1>
-		    <p>
-			After a PhD in particle physics on CERN experiment, I moved to the data science field, where I like to build mathematical models on various problems...
-			<a class="more" href="{{ "/about.html" | prepend: site.baseurl }}">more <i class="icon">{% include icon-right-caret.svg %}</i></a>
+		    <h2>About</h2>
+		    <p>After a PhD in particle physics on ATLAS CERN experiment, I moved to the data science field, where I like to build mathematical models on various problems...
+		    <a class="more" href="{{ "/about.html" | prepend: site.baseurl }}">more <i class="icon">{% include icon-right-caret.svg %}</i></a>
 		    </p>
 		</aside>
 	    </div>
@@ -60,6 +71,8 @@
 	    <footer>
 		<p>This site is powered by <a href="http://jekyllrb.com/">Jekyll</a> and is hosted on <a href="http://pages.github.com">GitHub Pages</a>.</p>
 		<p>Copyright: Estelle Scifo 2018 - . Opinions are mine.</p>
+		<p>Design inspired by <a href="https://www.epixa.com/">Court Ewing</a> personal website
+		- Icons made by <a href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy">Dave Gandy</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></p>
 	    </footer>
 	</div>
     </body>
