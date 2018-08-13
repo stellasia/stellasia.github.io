@@ -274,4 +274,4 @@ or using [httpie](https://httpie.org/):
 
     http -f POST http://127.0.0.1:5000/classify image@my_image.jpg
 
-Have fun!
+Finally, you can download a tarball with the final files [here](/downloads/simple_webservice_v2.tar.gz). Have fun!
