@@ -2,7 +2,17 @@
 layout: default
 ---
 
-<section>
-    <h1>Blog</h1>
-    
+<section class="list">
+    {% capture current_year %}{{ site.time | date: "%Y" }}{% endcapture %}
+    <section class="post-list">
+	<ul>
+	    {% for post in site.posts %}
+	    <li>
+		<h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+		<span class="date">{{ post.date | date: "%b %Y" }}</span>
+		<span class="summary">{{ post.summary }}</span>
+	    </li>	    
+	    {% endfor %}
+	</ul>
+    </section>
 </section>

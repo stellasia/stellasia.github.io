@@ -1,0 +1,47 @@
+article {
+    padding: 0 10px;
+    header {        
+        background-color: white;
+	margin-bottom: 1.2em;
+        h1 {
+	    background-color: none;
+	    color: black;
+	    border-bottom: 3px solid black;
+        }
+	h2 {
+	    color: $aside_font_color;
+	    text-align: right;
+	}
+    }
+    section {
+        margin-bottom: 2em;
+        h1 {
+	    font-size: 1.2em;
+	    background: none;
+	    color: black;
+	    border-bottom: 1px solid black;
+	    margin-top: 1.3em;
+	    margin-bottom: 1.1em;	
+        }
+	h2 {
+	    margin-top: 1.1em;	
+	    margin-bottom: 1.1em;	
+	}
+	p {
+	    margin-top: 1em;
+	}
+	ul {
+	    margin-left: 30px;
+	    li {
+	        list-style: square;
+	    }
+	}
+	pre {
+	    margin: 1.5em;
+	    font-size: 0.9em;
+	}
+	ul {
+	    margin: 0.8em 1.5em 1.1em;
+	}
+    }
+}

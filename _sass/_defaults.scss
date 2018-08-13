@@ -34,7 +34,7 @@ p.clear {
     margin: 0 auto;
     background-color: $content_background_color;
     overflow: auto;
-    header {
+    header.main {
         background-color: $header_background_color;
         color: $header_font_color;
         overflow: hidden;
@@ -114,5 +114,8 @@ p.clear {
 	a {
 	    color: $header_font_color;
         }
+    }
+    .underline {
+        border-bottom: 1px solid black;    
     }
 }
