@@ -23,11 +23,11 @@ layout: default
     <h1><span>Available <a href="/tutorials">tutorials</a></span></h1>
     <section>
 	<ul>
-	    {% for post in site.tutorials reversed %}
+	    {% for tuto in site.tutorials reversed %}
 	    <li>
-		<h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-		<span class="date">{{ post.date | date: "%b %Y" }}</span>
-		<span class="summary">{{ post.summary }}</span>
+		<h2><a href="{{ tuto.url | prepend: site.baseurl }}">{{ tuto.title }}</a></h2>
+		<span class="date">{{ tuto.date | date: "%b %Y" }}</span>
+		<span class="summary">{{ tuto.summary }}</span>
 	    </li>	 
 	    {% endfor %}
 	</ul>

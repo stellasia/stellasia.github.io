@@ -26,4 +26,5 @@ collections:
   posts:
     permalink: /blog/:path/
   tutorials:
-    permalink: /tutorial/:path/
+    permalink: /tutorial/:title.html
+    output: true

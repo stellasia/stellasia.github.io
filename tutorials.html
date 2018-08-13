@@ -2,7 +2,18 @@
 layout: default
 ---
 
-<section>
-    <h1>Tutorials</h1>
-    
+
+<section class="list underline">
+    <h1><span>Available tutorials</span></h1>
+    <section>
+	<ul>
+	    {% for tuto in site.tutorials reversed %}
+	    <li>
+		<h2><a href="{{ tuto.url | prepend: site.baseurl }}">{{ tuto.title }}</a></h2>
+		<span class="date">{{ tuto.date | date: "%b %Y" }}</span>
+		<span class="summary">{{ tuto.summary }}</span>
+	    </li>
+	    {% endfor %}
+	</ul>
+    </section>
 </section>
