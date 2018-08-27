@@ -28,3 +28,5 @@ collections:
   tutorials:
     permalink: /tutorial/:title.html
     output: true
+
+google_analytics: UA-124680060-1
