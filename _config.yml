@@ -13,7 +13,7 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 permalink: /:year/:month/:title.html
 timezone: Europe/Paris
-lsi: true
+lsi: false
 
 # Build settings
 markdown: kramdown

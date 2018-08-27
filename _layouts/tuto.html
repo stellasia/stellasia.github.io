@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+{% if page.parent_link and page.parent_title %}
+<div class="breadcrumb">
+    <a href="{{ page.parent_link }}">{{ page.parent_title }}</a>
+</div>
+{% endif %}
+
+<article class="tuto">
+
+    <header>
+	<h1>{{ page.title }}</h1>
+    </header>
+
+    <section>
+	{{ content }}
+    </section>
+
+</article>

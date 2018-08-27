@@ -3,4 +3,4 @@ layout: default
 title: About me
 ---
 
-# I am Estelle Scifo
+You can find more information about my professional experience on my linkedin or stackoverflow profiles.
