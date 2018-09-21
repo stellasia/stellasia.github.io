@@ -20,7 +20,7 @@ Beside data analysis, I can also write reliable code (including webservices and 
 
 # Experience
 
-- _2014-2018 : **Data Scientist** at effiCity (www.efficity.com/) (working remotely, France):
+- _2014-2018_ : **Data Scientist** at effiCity (www.efficity.com/) (working remotely, France):
     - Real estate estimation algorithm:
 	    - Mathematical formulation with parameter fitting on real data
 		- Implementation with the  **python** stack (numpy, pandas, scipy, sklearn)
