@@ -18,7 +18,18 @@ I am interested in many topics, with a strong belief in "fair machine learning" 
 Beside data analysis, I can also write reliable code (including webservices and HTML/CSS/JavaScript) that can be pushed to **production**.
 
 
+# Skills
+
+- Data analysis: python data analysis toolkit ie: numpy, scipy, pandas, scikit-learn
+- Database: SQL (Postgresql, Postgis)
+- Web development: django, HTML, CSS, JS, REST
+- Linux, git (gitlab)
+
+
 # Experience
+
+- _2018- _ : **Senior Data Scientist** at Motion-S (www.motion-s.com/) (Luxembourg)
+
 
 - _2014-2018_ : **Data Scientist** at effiCity (www.efficity.com/) (working remotely, France):
     - Real estate estimation algorithm:
