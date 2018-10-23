@@ -18,17 +18,19 @@ I am interested in many topics, with a strong belief in "fair machine learning" 
 Beside data analysis, I can also write reliable code (including webservices and HTML/CSS/JavaScript) that can be pushed to **production**.
 
 
-# Skills
+# Tools
 
-- Data analysis: python data analysis toolkit ie: numpy, scipy, pandas, scikit-learn
-- Database: SQL (Postgresql, Postgis)
-- Web development: django, HTML, CSS, JS, REST
-- Linux, git (gitlab)
+- **Data science**: python data analysis toolkit ie: numpy, scipy, pandas, scikit-learn
+- **Database**: SQL (Postgresql, Postgis)
+- **Web development**: django, HTML, CSS, JS; webservices (RPC, REST)
+- Development: python (pytest), C++
+- Linux (some server management), git (gitlab)
+
 
 
 # Experience
 
-- _2018- _ : **Senior Data Scientist** at Motion-S (www.motion-s.com/) (Luxembourg)
+- _2018-_ : **Senior Data Scientist** at Motion-S (www.motion-s.com/) (Luxembourg): telematic data exploration
 
 
 - _2014-2018_ : **Data Scientist** at effiCity (www.efficity.com/) (working remotely, France):
@@ -49,3 +51,8 @@ Beside data analysis, I can also write reliable code (including webservices and 
     - Search for the Higgs boson and, after its discovery, measurement of some properties (called _couplings_)
 	- Hypothesis testing (likelihood) and best parameter estimation with the [C++ ROOT](//root.cern.ch) framework
 	- Analyze billions of events on distributed data analysis system (Big data)
+
+
+# Achievements
+
+- 2018-10: second prize at the lux4good hackathon on measuring diversity within company's employees

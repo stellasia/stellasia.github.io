@@ -48,4 +48,6 @@ I hope the ideas developped here will give birth to something interesting and th
 
 Before finishing, I have to say a big thanks to the organizers (we had all information on time, everthing was great!), the project owner and my amazing team mates!
 
+![The awesome team!](https://image-store.slidesharecdn.com/6f2fbfa6-7384-4e05-8e84-0e29c982682f-original.jpeg)
+
 The github repo for this hackathon can be found [here](https://github.com/stellasia/l4gims) (forked from [this one](https://github.com/remil1000/l4gims), thanks Remi!).
