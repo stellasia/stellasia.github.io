@@ -3,7 +3,7 @@ layout: post
 title: "My first hackthon"
 category: misc
 summary: Thoughts about my participation in the lux4good hackthon
-date: 2018-10-23 21:00:08:00
+date: 2018-10-23 21:00:00
 ---
 
 You know hackathon, those events where you are asked to code, just code for at least 24 hours non stop? Well, this is not exactly how it works, but this was my impression before last week. With this image in mind, I was not really enthousiast in joining such an event.
