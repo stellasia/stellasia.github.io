@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "My first hackthon"
+title: "My first hackathon"
 category: misc
 summary: Thoughts about my participation in the lux4good hackthon
 date: 2018-10-23 21:00:00
