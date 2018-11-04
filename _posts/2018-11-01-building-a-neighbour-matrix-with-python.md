@@ -24,6 +24,10 @@ $$
 Here is the receipe I have used to create the W matrix using numpy, scipy and matplotlib for visualization.
 
 
+<div class="info">
+If you are already familiar with scipy cKDTree and sparse matrix, you can directly go to <a href="#so-how-to-create-this-w-matrix">the last section</a>.
+</div>
+
 # Sample data
 
 I have created a dummy dataset for the purpose of the demonstration, with sizes `N=12` train samples and `M=3` test samples:
@@ -78,7 +82,7 @@ Let's concentrate on the `indices` array.
            [ 9, 10, 11]])
 
 
-It is a numpy array with M (number of test samples) rows and K (number of neighbours) columns. How to transform this to the matrix we are looking for, that with our example should look like:
+It is a numpy array with M (number of test samples) rows and K (number of neighbours) columns.
 
 It can be interesting to see the selected neighbours on a plot:
 
@@ -100,11 +104,22 @@ plt.show()
 
 ![Selected neighbours for test point 0](/img/posts/neighbours_matrix_selected_0.png){:width="50%"}
 
+
+Ok so neighbours finding seems to work as expected! Let's know see how to convert the `indices` array into a full usable matrix, that for our purpose should look like:
+
+      1  1  1  0  0  0  0  0  0  0  0  0
+      0  0  0  1  1  1  0  0  0  0  0  0
+      0  0  0  0  0  0  1  1  1  0  0  0
+      0  0  0  0  0  0  0  0  0  1  1  1
+
+because the neighbours of test observation 0 (first row) are the train observations 0, 1 and 2, the neighbours of the test observation 1 (second row) are the train observations 3, 4 and 5, and so on.
+
+
 # Matrix creation
 
 ## Scipy sparse matrices
 
-At first, we would like to use numpy indexing to create our matrix like this
+At first, we could think of using numpy indexing to create our matrix like this
 
 {% highlight python %}
 import numpy as np
@@ -150,6 +165,10 @@ Let's try with a second example just to sure everything is clear. Now I want to 
            [0, 1, 0, 0],
            [1, 0, 0, 0]])
 
+<div class="info">
+You should think by yourself before looking at the solution below.
+</div>
+
 This time, the code is:
 
     i_index = [3, 2, 1, 0] # <== this is the only change with respect to previous example!
@@ -158,7 +177,9 @@ This time, the code is:
     matrix = sparse.coo_matrix((values, (i_index, j_index)), shape=(4, 4))
 
 
+<div class="warning">
 NB: switching from sparse to dense representation is only possible when matrix size in relatively small, otherwise it will creates memory issues (the reason why sparse matrices exists!)
+</div>
 
 
 ## So, how to create this W matrix?
@@ -200,7 +221,7 @@ And at the end, our matrix looks like (with "1" values):
 Now, we can compute our dot product (either with the sparse or dense version of the matrix):
 
 {% highlight python %}
-y_tilde = matrix.dot(y) # where y has shape (N, )
+y_tilde = matrix.dot(y) # where y has shape (N, ), number of train samples
 {% endhighlight %}
 
 And here we are, problem solved!
