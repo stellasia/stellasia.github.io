@@ -18,6 +18,11 @@ I am interested in many topics, with a strong belief in "fair machine learning" 
 Beside data analysis, I can also write reliable code (including webservices and HTML/CSS/JavaScript) that can be pushed to **production**.
 
 
+<div class="info">
+Want to hire me for short missions? I am a <a href="https://www.codementor.io/estellescifo">code mentor</a>.
+</div>
+
+
 # Tools
 
 - **Data science**: python data analysis toolkit ie: numpy, scipy, pandas, scikit-learn

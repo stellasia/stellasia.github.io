@@ -29,6 +29,19 @@ p.clear {
     clear: both;
 }
 
+.info {
+    border-left: 15px solid darkgreen;
+    background: #B0F2B6;
+    padding: 1ex;
+    margin: 1em;
+}
+.warning {
+    border-left: 15px solid red;
+    background: #FFDAF9;
+    padding: 1ex;
+    margin: 1em;
+}
+
 .page {
     width: 60%;
     margin: 0 auto;
