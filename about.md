@@ -19,8 +19,10 @@ Beside data analysis, I can also write reliable code (including webservices and 
 
 
 <div class="info">
-Want to hire me for short missions? I am a <a href="https://www.codementor.io/estellescifo">code mentor</a>.
+Want to hire me for 1-1 short sessions or freelance jobs? 
+<a href="https://www.codementor.io/estellescifo?utm_source=github&utm_medium=button&utm_term=estellescifo&utm_campaign=github"><img src="https://cdn.codementor.io/badges/i_am_a_codementor_dark.svg" alt="I am a codementor" style="max-width:100%"/></a>
 </div>
+
 
 
 # Tools
@@ -37,6 +39,10 @@ Want to hire me for short missions? I am a <a href="https://www.codementor.io/es
 
 - _2018-_ : **Senior Data Scientist** at Motion-S (www.motion-s.com/) (Luxembourg): telematic data exploration
 
+- _2011 -_: Teaching:
+    - _2018-_ : code mentor (python, sql, data science)
+	- _2014-_ : private lessons, maths and physics, French A-level equivalent.
+    - _2011-2014_: python practical works for undergraduate students.
 
 - _2014-2018_ : **Data Scientist** at effiCity (www.efficity.com/) (working remotely, France):
     - Real estate estimation algorithm:
@@ -52,7 +58,7 @@ Want to hire me for short missions? I am a <a href="https://www.codementor.io/es
     - Discussion with field professionals to improve the model
 	- Even if not my main skill, I also participated in the team projects especially the front-end development (django), including CSS integration and JS scripts in some occasions
 
-- _2011-2014_: **PhD** in Particle physics (LAL, Orsay, France)
+- _2011-2014_: **PhD** in Particle physics (Université Paris Sud/LAL, Orsay, France)
     - Search for the Higgs boson and, after its discovery, measurement of some properties (called _couplings_)
 	- Hypothesis testing (likelihood) and best parameter estimation with the [C++ ROOT](//root.cern.ch) framework
 	- Analyze billions of events on distributed data analysis system (Big data)
