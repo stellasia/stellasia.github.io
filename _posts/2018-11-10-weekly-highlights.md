@@ -34,7 +34,6 @@ I cam accross these pictures again during the last week about correlation:
 
 - A list of [spurious correlations](http://tylervigen.com/spurious-correlations), for instance:
 
-![Spirous correlation](img/posts/chart_spurious_correlation.png){:width="60%"}
-
+![Spurious correlation](/img/posts/chart_spurious_correlation.png){:width="60%"}
 
 TBC
