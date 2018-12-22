@@ -13,25 +13,31 @@ I have completed a PhD in particle physics in 2014 during which I was part of th
 
 After this PhD, I decided to leave academia to explore diverse fields, still through **data analysis** and **mathematical modelisation** that helps solve real-life problems.
 
-I am interested in many topics, with a strong belief in "fair machine learning" and "responsible data science". In my opinion, it goes through teaching and explaining to all the involved people what we can and can't do with data, and what a model result really is, taking into account its **uncertainties**. 
+I am interested in many topics, with a strong belief in "fair machine learning" and "responsible data science". In my opinion, it goes through teaching and explaining to all the involved people what can and can't be done with data, and what a model result really is, taking into account its **uncertainties**. 
 
 Beside data analysis, I can also write reliable code (including webservices and HTML/CSS/JavaScript) that can be pushed to **production**.
 
+Right now, my main topics of interests are graphs and graph database (neo4j for instance) and applications of bayesian analysis. Feel free to contact me via Linkedin if you want to know more.
 
+<!--
 <div class="info">
 Want to hire me for 1-1 short sessions or freelance jobs? 
 <a href="https://www.codementor.io/estellescifo?utm_source=github&utm_medium=button&utm_term=estellescifo&utm_campaign=github"><img src="https://cdn.codementor.io/badges/i_am_a_codementor_dark.svg" alt="I am a codementor" style="max-width:100%"/></a>
 </div>
-
+-->
 
 
 # Tools
 
-- **Data science**: python data analysis toolkit ie: numpy, scipy, pandas, scikit-learn
-- **Database**: SQL (Postgresql, Postgis)
+- **Data science & machine learning**: python data analysis toolkit ie: numpy, scipy, pandas, scikit-learn
+    - Modelisation (math formulation)
+    - Implementation
+    - Simulation (Monte-Carlo techniques)
+    - Visualization (including maps)
+- **Database**: SQL (Postgresql, Postgis), Cypher (Neo4j)
 - **Web development**: django, HTML, CSS, JS; webservices (RPC, REST)
-- Development: python (pytest), C++
-- Linux (some server management), git (gitlab)
+- Development: python (pytest, sphinx), C++, Java (groovy)
+- Linux (some server management with ansible), git (gitlab)
 
 
 
@@ -41,22 +47,21 @@ Want to hire me for 1-1 short sessions or freelance jobs?
 
 - _2011 -_: Teaching:
     - _2018-_ : code mentor (python, sql, data science)
-	- _2014-_ : private lessons, maths and physics, French A-level equivalent.
+    - _2014-_ : private lessons, maths and physics, French A-level equivalent.
     - _2011-2014_: python practical works for undergraduate students.
 
 - _2014-2018_ : **Data Scientist** at effiCity (www.efficity.com/) (working remotely, France):
     - Real estate estimation algorithm:
 	    - Mathematical formulation with parameter fitting on real data
-		- Implementation with the  **python** stack (numpy, pandas, scipy, sklearn)
-		- Validation with simulations
-		- Push to production (create appropriate python package)!
-	- Statistics:
+	    - Implementation with the  **python** stack (numpy, pandas, scipy, sklearn)
+	    - Validation with simulations
+	    - Push to production (create appropriate python package)!
+    - Statistics:
 	    - Regression algorithm (KNN)
-		- Function minimization (scipy)
+	    - Function minimization (scipy)
 	    - Clustering to identify cities with similar caracteristics
-	- As always, internal note and code documentation
-    - Discussion with field professionals to improve the model
-	- Even if not my main skill, I also participated in the team projects especially the front-end development (django), including CSS integration and JS scripts in some occasions
+    - As always, internal note and code documentation
+    - Participation to the team projects especially front-end development (django), including CSS integration and JS scripts
 
 - _2011-2014_: **PhD** in Particle physics (Université Paris Sud/LAL, Orsay, France)
     - Search for the Higgs boson and, after its discovery, measurement of some properties (called _couplings_)
