@@ -71,4 +71,5 @@ Want to hire me for 1-1 short sessions or freelance jobs?
 
 # Achievements
 
+- 2018-12: [Neo4j Certified Professional](https://graphacademy.neo4j.com/certificates/43898ee59d183928339d23f5e21d52276054b3b133d48a03e71bebab024ad242.pdf)
 - 2018-10: second prize at the lux4good hackathon on measuring diversity within company's employees
