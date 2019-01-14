@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Neo4j certification"
-category: neo4j
+tags: graph neo4j
 summary: I paassed the neo4j graph database certification.
 date: 2018-12-22 16:00:00
 ---

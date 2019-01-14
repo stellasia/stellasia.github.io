@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "A trigger for some data backup in PostgreSQL"
-category: sql
+tags: SQL
 summary: How to use SQL triggers to maintain a backup table.
 date: 2018-11-16 11:00:00
 ---

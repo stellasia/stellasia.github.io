@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Coding exercice: kind of morse code with errors"
-category: python
+tags: python graph algorithm
 summary: My solution to a coding exercice that was given to me a few times ago using graphs and recursion.
 date: 2018-12-03 20:00:00
 ---

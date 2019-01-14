@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Bayesian statistics: short review of existing ressources"
-category: stats
+tags: maths probability bayesian
 summary: A short non-exhaustive review on (online) books and tutorials about bayesian statistics
 date: 2018-12-29 16:00:00
 ---

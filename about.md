@@ -17,7 +17,9 @@ I am interested in many topics, with a strong belief in "fair machine learning" 
 
 Beside data analysis, I can also write reliable code (including webservices and HTML/CSS/JavaScript) that can be pushed to **production**.
 
-Right now, my main topics of interests are graphs and graph database (neo4j for instance) and applications of bayesian analysis. Feel free to contact me via Linkedin if you want to know more.
+<div class="info">
+<p>Right now, my main topics of interests are graphs and graph database (neo4j for instance) and applications of bayesian analysis. </p> <p>Feel free to contact me via <a href="https://www.linkedin.com/in/estellescifo/">Linkedin</a> if you want to know more.</p>
+</div>
 
 <!--
 <div class="info">
