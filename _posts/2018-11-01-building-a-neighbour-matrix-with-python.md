@@ -105,7 +105,7 @@ plt.show()
 ![Selected neighbours for test point 0](/img/posts/neighbours_matrix_selected_0.png){:width="50%"}
 
 
-Ok so neighbours finding seems to work as expected! Let's know see how to convert the `indices` array into a full usable matrix, that for our purpose should look like:
+Ok so neighbours finding seems to work as expected! Let's now see how to convert the `indices` array into a full usable matrix, that for our purpose should look like:
 
       1  1  1  0  0  0  0  0  0  0  0  0
       0  0  0  1  1  1  0  0  0  0  0  0
