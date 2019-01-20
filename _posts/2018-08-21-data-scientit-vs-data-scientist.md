@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Data scientist VS data scientist"
-category: thoughts
+tags: data
 summary: Different kind of data scientits positions, company advisory guy or central actor
 date: 2018-08-21 11:00:00:00
 ---

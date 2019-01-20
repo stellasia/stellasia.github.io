@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Weekly hightlights: 2018-11-05 / 2018-11-10"
-category: weekly
+tags: graph statistics
 summary: What I have learned during the past few weeks.
 date: 2018-11-10 20:00:00
 ---

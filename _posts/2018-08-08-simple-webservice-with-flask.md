@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "A simple webservice with flask"
-category: python
+tags: python web
 summary: Write a simple webservice with python and flask
 date: 2018-08-08 08:08:08:00
 ---

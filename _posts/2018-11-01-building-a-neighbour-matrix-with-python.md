@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Building a neighbour matrix with python"
-category: python
+category: python, algorithm
 summary: How to create a neighbour matrix with scipy tools
 date: 2018-11-01 12:00:00
 ---
