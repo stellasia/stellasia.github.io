@@ -4,6 +4,7 @@ title: "Bayesian statistics: short review of existing ressources"
 tags: probability statistics bayesian
 summary: A short non-exhaustive review on (online) books and tutorials about bayesian statistics
 date: 2018-12-29 16:00:00
+update: 2019-01-22 19:00:00
 ---
 
 
@@ -28,5 +29,25 @@ Note that a printed version exists, consider buying it if you like this work and
 
 - [Bayesian Analysis with Python](https://www.packtpub.com/big-data-and-business-intelligence/bayesian-analysis-python): this book has been written by [Osvaldo Martin](https://github.com/aloctavodia). Free version of the first edition are regularly made available from the publisher ([Free learning of the day offer](https://www.packtpub.com/packt/offers/free-learning/)). It has the advantage of being more exhaustive than the previous one.
 
+- [Statistical Rethinking with Python and PyMC3](https://github.com/pymc-devs/resources/tree/master/Rethinking): again, those are jupyter notebooks based on the example written in the book "Statistical Rethinking". [Here](http://xcelab.net/rm/statistical-rethinking/) you can also find links to lecture material and videos.
+
+
+# Tools
+
+Beyond PyMC3 
+The previous ressources already presented some tools to use bayesian analysis in real life examples. Here are some more:
+
+- STAN and [PySTAN](https://pystan.readthedocs.io/en/latest/)
+- A comparison between PyMC, STAN and a third package (Edward) can be found [here](https://statmodeling.stat.columbia.edu/2017/05/31/compare-stan-pymc3-edward-hello-world/)
+- [ArviZ](https://arviz-devs.github.io/arviz/index.html) a powerfull library to create very interesting plots related to bayes analysis (compatible with both PyMC3 and PySTAN).
+
+
+# Future
+
+PyMC4 is already [in the pipes](https://github.com/pymc-devs/pymc4)! Main change is related to the deprecation of theano, used as backend to PyMC3.
+
 
 Of course, there are many more ressources on the topic, I will update the list when I come accross a new interesting approach.
+
+
+**UPDATE 2019-01-22** added reference to "Statistical Rethinking", STAN and ArviZ

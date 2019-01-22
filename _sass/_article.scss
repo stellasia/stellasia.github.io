@@ -11,6 +11,9 @@ article {
 	h2 {
 	    color: $aside_font_color;
 	    text-align: right;
+	    .update {
+	    	    font-size: 0.7em;
+	    }
 	}
     }
     section {
@@ -28,7 +31,7 @@ article {
 	    margin-top: 1.1em;
 	    margin-bottom: 1.1em;
 	    border-bottom: 1px solid grey;
-	}
+	}	
 	h3 {
 	    margin-top: 1.1em;	
 	    margin-bottom: 1.1em;	
