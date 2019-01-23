@@ -18,7 +18,14 @@ I am interested in many topics, with a strong belief in "fair machine learning" 
 Beside data analysis, I can also write reliable code (including webservices and HTML/CSS/JavaScript) that can be pushed to **production**.
 
 <div class="info">
-<p>Right now, my main topics of interests are graphs and graph database (neo4j for instance) and applications of bayesian analysis. </p> <p>Feel free to contact me via <a href="https://www.linkedin.com/in/estellescifo/">Linkedin</a> if you want to know more.</p>
+<p>Right now, I am mainly interested in:
+    <ul>
+		<li>mathematical/statistical modelisation</li>
+		<li>bayesian analysis and its applications</li>
+        <li>graph database (neo4j for instance) and graphs in general</li>
+	</ul> 
+</p> 
+<p>Feel free to contact me via <a href="https://www.linkedin.com/in/estellescifo/">Linkedin</a> if you want to know more.</p>
 </div>
 
 <!--
@@ -27,6 +34,10 @@ Want to hire me for 1-1 short sessions or freelance jobs?
 <a href="https://www.codementor.io/estellescifo?utm_source=github&utm_medium=button&utm_term=estellescifo&utm_campaign=github"><img src="https://cdn.codementor.io/badges/i_am_a_codementor_dark.svg" alt="I am a codementor" style="max-width:100%"/></a>
 </div>
 -->
+
+<div class="warning">
+I am available for short freelance missions via <a href="https://www.malt.fr/profile/estellescifo">MALT</a>.
+</div>
 
 
 # Tools
@@ -45,10 +56,11 @@ Want to hire me for 1-1 short sessions or freelance jobs?
 
 # Experience
 
-- _2018-_ : **Senior Data Scientist** at Motion-S (www.motion-s.com/) (Luxembourg): telematic data exploration
+- _2018-_ : **Senior Data Scientist** at Motion-S (www.motion-s.com/) (Luxembourg): road accident risk estimation from driver behaviour (telematic and contextualized data)
+
 
 - _2011 -_: Teaching:
-    - _2018-_ : code mentor (python, sql, data science)
+    <!-- - _2018-_ : code mentor (python, sql, data science) -->
     - _2014-_ : private lessons, maths and physics, French A-level equivalent.
     - _2011-2014_: python practical works for undergraduate students.
 
