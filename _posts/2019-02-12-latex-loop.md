@@ -44,4 +44,14 @@ Then, the magic of `pgffor` enters into the game. Like in any other language (al
  
 	\end{document}
 
+If even works for "list of strings":
+
+    \foreach \n in {varibleA,
+                    varB,
+                    VariableC} {
+        \n
+    }
+
+No more excuses to have the `a` distribution on the slide named ` b`!
+
 
