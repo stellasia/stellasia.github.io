@@ -52,6 +52,6 @@ If even works for "list of strings":
         \n
     }
 
-No more excuses to have the `a` distribution on the slide named ` b`!
+No more excuses to have the distribution of variable `A` on the slide named ` B`!
 
 
