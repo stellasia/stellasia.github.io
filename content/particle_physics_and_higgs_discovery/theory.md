@@ -14,6 +14,12 @@ en connaître les propriétés, comme on ne va pas chercher un livre dans
 une bibliothèque sans en connaître le titre, l’auteur et/ou la couleur
 de la couverture.
 
+# Plan de ce chapitre
+
+* TOC
+{:toc}
+
+
 # La physique des particules, qu’est-ce que c’est ?
 
 Rentrons dans le vif du sujet : un physicien des particules cherche à
@@ -450,7 +456,7 @@ de cette mer de quarks et de gluons et l’interaction forte, ou QCD.
 </div>
 
 Après cette longue mais indispensable partie théorique, nous allons
-maintenant nous pencher sur les techniques expérimentales imaginées
+maintenant nous pencher sur les [techniques expérimentales](/content/particle_physics_and_higgs_discovery/experience.html) imaginées
 pour détecter les particules.
 
 

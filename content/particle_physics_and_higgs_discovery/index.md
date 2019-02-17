@@ -14,6 +14,6 @@ Aucune connaissance préalable n’est nécessaire, même si quelques lointains 
 Plan du tuto :
 
 - [Théorie](/content/particle_physics_and_higgs_discovery/theory.html)
-- Expérience (à venir)
-- Analyse des données (à venir)
+- [Expérience](/content/particle_physics_and_higgs_discovery/experience.html)
+- Etude de cas : la découverte du boson de Higsg (à venir)
 - Conclusion (à venir)
