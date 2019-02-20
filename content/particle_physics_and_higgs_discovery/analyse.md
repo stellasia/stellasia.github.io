@@ -29,21 +29,19 @@ même ?
 
 # Voir une particule instable
 
+## Le signal
+
 Que devient une particule instable ? Elle se désintègre ! Elle se
 désintègre en quoi ? En particules... stables ! Et voilà, on a la
 solution, il suffit de détecter les particules stables issues de la
 désintégration d’une particule instable et le tour est joué. Enfin il
 suffit il suffit, c’est vite dit.
 
-<div class="warning">
-La suite de cette section contient un peu de maths, mais rien d'insurmontable.
-</div>
-
-
 Prenons une particule imaginaire, appelons la A. Cette particule a la
 malchance d’être instable et de se désintégrer en deux particules
 stables, que nous appellerons 1 et 2 pour conserver la généralité de ce
-propos. Donc dans mon détecteur, je vais voir passer 1 et 2. Comment
+propos. Ces deux particules constituent l'état final de la désintégration.
+Donc dans mon détecteur, je vais voir passer 1 et 2. Comment
 savoir si elles viennent de A ou d’une autre particule ou même de deux
 particules différentes ?
 
@@ -62,6 +60,10 @@ respectivement et Psi est l’angle entre les deux particules finales.
 <![Diagramme de la désintégration d’une particule A en deux
 particles stables notées 1 et 2.](Figures/signal.png "fig:"){:width="50%"}
 </span>
+
+<div class="warning">
+Vous pouvez sauter les équations si elles vous font peur, mais elles ne mordent pas.
+</div>
 
 Cette formule vient simplement de la conservation de l’énergie et de la
 quantité de mouvement ou impulsion ($\vec{p}=m\vec{v}$).\
@@ -110,67 +112,153 @@ $$
 dans le système d’unité spécial où c=1.
 
 À partir de là, vous voyez qu’on peut simplifier notre équation initiale : 
+
 $$
-m_{A}^{2} =
+m_{A}^{2} =2E_{1}E_{2}\times(1-\cos{\Psi})
 $$
 
-Pour chaque événement de ce type, on peut mesurer les énergies des
-particules 1 et 2 ainsi que Psi et calculer le quantité
+Pour chaque événement où on détecte les particules 1 et 2, on peut mesurer 
+les énergies mises en jeu ainsi que Psi et calculer le quantité
 
 $$
 2E_{1}E_{2}\times(1-\cos{\Psi}) = m_{12}^{2}
 $$
 
-que l’on appelle la *masse invariante* des particules 1 et 2. On vient de voir que cette
-quantité est égale à la masse de A au carré, mais quand on fait l’expérience, on ne
+que l’on appelle la *masse invariante* des particules 1 et 2. 
+
+Cette quantité est aussi égale à la masse de A (au carré) lorsque 1 et 2 sont
+issues de la désintégration de A.
+
+Quand on fait l’expérience, on ne
 trouve pas toujours exactement cette valeur, à cause des erreurs
 expérimentales (on peut n’avoir mesuré par erreur et sans le savoir
 qu’une partie de l’énergie des particules finales par exemple). La
 distribution de masse invariante ressemblera donc à celle de la figure
-suivante. 
+suivante, c'est à dire une courbe en cloche (Gaussienne pour les connaisseurs)
+centrée (si notre détecteur est bien réglé) sur la valeur réelle de mA,
+mais avec une certaine largeur du fait des erreurs de mesrure.
 
 ![Distribution en masse du
 signal.](Figures/signal_10000_events.png){:width="50%"}
 
-Je vais passer un peu de temps à vous expliquer
-ce que cela représente car on se sert de ce genre de figure tout le
-temps :
+<div class="info">
+Ce type de graphique, appelé histogramme, doit s'interpréter de cette façon :
+
+<ul>
+<li>L'axe x montre la variable qui nous intéresse, ici m12</li>
+<li>Cette axe est coupé en plusieurs cases </li>
+<li>L'axe y est le décompte du nombre d'évenements dans chaque case. </li>
+<li>Dans l'exemple précédent, on a environ 2500 collisions dans lesquelles la masse mesurée m12 est entre 75 et 80 GeV (bare gauche dans le pic)</li>
+</ul>
+</div>
+
+<div class="warning">
+Pour rappel, le GeV (giga-électronvolt) est une unité de masse/énergie fréquemment utilisée en physique des particules.
+</div>
+
+<div class="warning">
+La forme de la distribution change si on a peu d'évenements, la distribution en cloche n'étant obtenue que lorsque le nombre de collisions est "suffisamment grand". C'est ce qu'illustre l'animation suivante, dans laquelle chaque image correspond à une augmentation du nombre de mesures.
+</div>
 
 ![Distribution en masse du
 signal.](Figures/signal_anim.gif "fig:"){:width="50%"}
 
 
-En revanche, il peut arriver qu’on trouve dans notre détecteur deux
-particules 1 et 2, mais qui ne viennent pas du tout de la particules A :
-elles peuvent venir d’une autre particule B qui ne nous intéresse pas ou
-bien de la désintégration de deux particules différentes. 
+## Le bruit de fond
+
+Malheureusement pour nous, un état final donné n'est pas unique, et il existe d'autres phénomènes qui peuvent produire les mêmes particules 1 et 2. Ces processus sont appelés "bruit de fond" : 
 
 ![Bruit de fond : les particules 1 et 2 ne viennent pas d’une
 particule A](Figures/background.png "fig:"){:width="50%"}
 
-Dans ce cas, on peut toujours trouver E1,
-E2 et Psi et appliquer la formule donnant mA, ce ne sont que des maths. La différence est
-qu’il n’y a là aucune raison dans ce cas pour que cette formule corresponde 
-à la masse de A puisqu'il n'y a pas eu de A impliqué dans la réaction. La distribution de mA dans ce cas ne sera alors pas du tout centrée sur la valeur de mA mais pourra ressembler à ça par exemple :
+Dans ce cas, on peut toujours trouver E1, E2 et Psi et appliquer 
+la formule donnant m12, ce ne sont que des maths. En revenche, cette quantité
+n'a rien à voir avec mA, puisqu'il n'y a pas de particule A impliquée dans la réaction.
+
+La distribution de m12 dans ce cas ne sera alors pas du tout centrée sur la valeur de mA mais pourra ressembler à ça par exemple :
 
 ![Distribution en masse du bruit de
 fond.](Figures/background_10000events.png){:width="50%"}
 
+De la même façon que pour le signal, la forme de la distribution dépend du nombre d'événements de bruit de fond :
+
 ![Distribution en masse du bruit de
 fond.](Figures/background_anim.gif "fig:"){:width="50%"}
 
-En réalité, on va donc observer un mélange de signal (particules 1 et 2 provenant effectivement de A) et de bruit de fond (particules 1 et 2 provenant d'un autre phénomène). La distribution de mA qu'on va détecter ressemblera donc à la superposition du pic de mA "réel" et du continuum de bruit de fond :
+
+## Distribution de masse invariante réelle
+
+En réalité, on va donc observer un mélange de signal 
+(particules 1 et 2 provenant effectivement de A) et 
+de bruit de fond (particules 1 et 2 provenant d'un 
+autre phénomène). La distribution de m12 qu'on va 
+détecter ressemblera donc à la superposition du pic 
+de mA "réel" et du continuum de bruit de fond :
 
 ![Signal + bruit de fond](Figures/total.png "fig:"){:width="70%"}
 
+Dans cette figure, le rapport signal/bruit est très favorable au signal 
+et il est clair pour tout le monde qu'il y a eu des collisions avec une 
+particule de masse environ 80 GeV produite. 
 
-Tout la difficulté est de faire en sorte qu'on obtienne plus de signal que de bruit de fond, sinon le signal sera complétement "noyé" dans le bruit et on sera incapable de le distinguer. En pratique, on n'utilise pas nos seuls yeux pour déterminer si oui ou non il y a un signal, mais des méthodes d'analyses statistiques sur lesquelles nous reviendrons dans la suite de ce document.
+Dans une expérience réelle, le rapport signal/bruit est beaucoup plus faible, 
+malgré tous les efforts apportés à la sélection des événements.
+
+![Signal + bruit de fond réel](Figures/ATLAS_Higgs_expected_H_signal.png){:width="50%"}
+
+Dans ces cas, l'observation de la distribution avec nos seuls yeux 
+n'est pas suffisante pour conclure sur la présence d'un signal, 
+mais des méthodes d'analyses statistiques existent pour répondre 
+à cette question. Nous allons y revenir.
 
 
 # Modes de désintégration
 
-# Nombre d’événements attendus
+Bref, revenons à notre boson de Higgs. Le Higgs est une particule instable. Il se désintègre donc comme la particule fictive A de notre précédent exemple en d'autres particules. Il existe plusieurs modes de désintégration prévus par la théorie, je n'en évoquerai que deux ici : 
+
+- La désintégration en paire de photons
+- La désintégration en paire ZZ, qui eux mêmes sont aussi des particules instables et vont chacun se désintégrer en deux leptons (électrons ou muons). L'état final de cette réaction est donc constitué de 4 particules ! Mais le même type d'équation que celle vue en première partie s'applique.
+
+# Mesure de masse invariante
+
+ATLAS avait mesuré, dans l'état final en deux photons, la distribution de masse invariante suivante : 
+
+![mgg ATLAS 2012](Figures/ATLAS_m_gammagamma_2012.png){:width="70%"}
+
+Une étude poussée du bruit de fond nous permet de déterminer le nombre d'énénements attendus, en rouge sur la figure suivante :
+
+![mgg ATLAS 2012 fit](Figures/ATLAS_m_gammagamma_2012_fit.png){:width="70%"}
+
+Alors, signal ou pas signal ? Si oui, où ? 110, 125, 140 GeV ? 
+Voyons quelles sont les méthodes statistiques qui peuvent nous venir en aide !
 
 # Méthodes statistiques
 
-# Résultat
+- Ce qu’on sait :
+    - On attend N événements de bruit de fond
+    - On observe N’>N événements au total
+- Question : est-ce que la différence est due à une fluctuation du bruit de fond parce qu'on un nombre d'observations limitées, ou à la présence d'un signal ?
+
+Les statistiques nous permette de calculer un grandeur qu'on appelle p9 (p-value) qui représente : 
+
+> La probabilité pour que le bruit de fond fluctue, au moins autant que ce qu’on observe.
+
+En d'autres mots :
+
+- Si p0 est grande : très probable que l'excès d'événement qu'on observe soit dû à une fluctuation du bruit de fond;
+- Si p0 est petite : la probabilité pour que l’excès d’événements observé soit dû à une fluctuation est petite, ça doit être du signal !
+
+Une part d’arbitraire demeure pour déterminer la valeur limite de p0 à partir de laquelle on considère qu'il y a un signal, elle est fixée à 10-7
+
+
+# Statut avant le lHC
+
+
+# Résultat du LHC en 2012
+
+Voici à quoi ressemble un "plot de p0" : 
+
+![p0 ATLAS 2012](Figures/ATLAS_p0_combined_2012.png){:width="70%"}
+
+
+Beaucoup d'information ici, mais concentrons nous sur l'essentiel : la courbe solide noire. Elle représente la valeur de p0 en fonction de mH. Pour rappel, plus p0 est petite, plus la probabilité d'avoir observé un réel signal est forte. On voit même sur cette figure qu'au plus bas, p0 est de l'ordre de 10-9, ce qui est inférieur à la barrière de 10-7 et c'est donc la raison pour laquelle ATLAS peut annoncer la découverte du boson de Higgs !

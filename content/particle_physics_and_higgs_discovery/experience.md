@@ -172,3 +172,7 @@ En fonction des sous-détecteurs dans lesquels une particule a été vue, on peu
 ![Structure d’un détecteur.](Figures/particules_dans_detecteurs.png "fig:"){:width="70%"}
 
 Les neutrinos sont des particules intéragissant très peu avec la matière environnante et sont donc invisibles pour ce type de détecteurs. On considère qu'il y a eu un neutrino produit dans la réaction lorsqu'on mesure de l'énergie manquante. C'est en partie ce qui rend les mesures d'énergie extremement importantes.
+
+
+# ATLAS
+
