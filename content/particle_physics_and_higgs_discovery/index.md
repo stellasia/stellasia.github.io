@@ -15,5 +15,5 @@ Plan du tuto :
 
 - [Théorie](/content/particle_physics_and_higgs_discovery/theory.html)
 - [Expérience](/content/particle_physics_and_higgs_discovery/experience.html)
-- Etude de cas : la découverte du boson de Higsg (à venir)
+- [Etude de cas](/content/particle_physics_and_higgs_discovery/analyse.html) : la découverte du boson de Higsg
 - Conclusion (à venir)
