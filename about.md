@@ -18,7 +18,7 @@ I am interested in many topics, with a strong belief in "fair machine learning" 
 Beside data analysis, I can also write reliable code (including webservices and HTML/CSS/JavaScript) that can be pushed to **production**.
 
 <div class="info">
-<p>Right now, I am mainly interested in:
+<p>Right now, I am mainly interested in topics including but not limited to:
     <ul>
 		<li>mathematical/statistical modelisation</li>
 		<li>bayesian analysis and its applications</li>
@@ -59,10 +59,11 @@ I am available for short freelance missions via <a href="https://www.malt.fr/pro
 - _2018-_ : **Senior Data Scientist** at Motion-S (www.motion-s.com/) (Luxembourg): road accident risk estimation from driver behaviour (telematic and contextualized data)
 
 
-- _2011 -_: Teaching:
-    <!-- - _2018-_ : code mentor (python, sql, data science) -->
+- _2011 -_: **Teaching**
+    - _2018-_ : remote mentor (python, sql, data science)
     - _2014-_ : private lessons, maths and physics, French A-level equivalent.
     - _2011-2014_: python practical works for undergraduate students.
+
 
 - _2014-2018_ : **Data Scientist** at effiCity (www.efficity.com/) (working remotely, France):
     - Real estate estimation algorithm:
@@ -77,6 +78,7 @@ I am available for short freelance missions via <a href="https://www.malt.fr/pro
     - As always, internal note and code documentation
     - Participation to the team projects especially front-end development (django), including CSS integration and JS scripts
 
+
 - _2011-2014_: **PhD** in Particle physics (Université Paris Sud/LAL, Orsay, France)
     - Search for the Higgs boson and, after its discovery, measurement of some properties (called _couplings_)
 	- Hypothesis testing (likelihood) and best parameter estimation with the [C++ ROOT](//root.cern.ch) framework
@@ -86,4 +88,5 @@ I am available for short freelance missions via <a href="https://www.malt.fr/pro
 # Achievements
 
 - 2018-12: [Neo4j Certified Professional](https://graphacademy.neo4j.com/certificates/43898ee59d183928339d23f5e21d52276054b3b133d48a03e71bebab024ad242.pdf)
-- 2018-10: second prize at the lux4good hackathon on measuring diversity within company's employees
+- 2018-10: second prize at the lux4good hackathon on measuring diversity within company's employees:
+    - Development of a django website [github repository](https://github.com/stellasia/l4gims)
