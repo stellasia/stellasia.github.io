@@ -62,8 +62,8 @@ Beside data analysis, I can also write reliable code (including webservices and 
 
 - _2011 -_: **Teaching**
     - _2018-_ : remote mentor (python, sql, data science)
-    - _2014-_ : private lessons, maths and physics, French A-level equivalent.
-    - _2011-2014_: python practical works for undergraduate students.
+    - _2014-_ : private lessons, maths and physics, French A-level equivalent
+    - _2011-2014_: python practical works for undergraduate students
 
 
 - _2014-2018_ : **Data Scientist** at effiCity (www.efficity.com/) (working remotely, France):
@@ -90,4 +90,4 @@ Beside data analysis, I can also write reliable code (including webservices and 
 
 - 2018-12: [Neo4j Certified Professional](https://graphacademy.neo4j.com/certificates/43898ee59d183928339d23f5e21d52276054b3b133d48a03e71bebab024ad242.pdf)
 - 2018-10: second prize at the lux4good hackathon on measuring diversity within company's employees:
-    - Development of a django website [github repository](https://github.com/stellasia/l4gims)
+    - Development of a django website from scratch [github repository](https://github.com/stellasia/l4gims)
