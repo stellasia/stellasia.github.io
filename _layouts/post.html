@@ -4,25 +4,28 @@ layout: default
 
 <article class="">
 
-  <header>
-    <h1>{{ page.title }}</h1>
-    <h2>{{ page.date | date: "%B %d, %Y" }}
-	{% if page.update %}
-	<span class="update">(last updated on {{ page.update  | date: "%Y/%m/%d" }})</span>
-	{% endif %}
-    </h2>
-    
-    <div class="tags">
-	{% for tag in page.tags %}
-	{% capture tag_name %}{{ tag }}{% endcapture %}
-	<a href="/tag/{{ tag_name }}">{{ tag_name }}</a>
-	{% endfor %}
-    </div>
-  </header>
+    <header>
+	<h1>{{ page.title }}</h1>
+	<h2>{{ page.date | date: "%B %d, %Y" }}
+	    {% if page.update %}
+	    <span class="update">(last updated on {{ page.update  | date: "%Y/%m/%d" }})</span>
+	    {% endif %}
+	</h2>
+	
+	<div class="tags">
+	    {% for tag in page.tags %}
+	    {% capture tag_name %}{{ tag }}{% endcapture %}
+	    <a href="/tag/{{ tag_name }}">{{ tag_name }}</a>
+	    {% endfor %}
+	</div>
+    </header>
 
-  <section>
-      {{ content }}
-  </section>
+    <section>
+	{{ content }}
+    </section>
 
 </article>
 
+<div class="warning">
+    <a href="/contact">Contact me to know more about this topic!</a>
+</div>

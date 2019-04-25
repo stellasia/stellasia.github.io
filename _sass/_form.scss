@@ -1,0 +1,24 @@
+$page_background_color: #222;
+$default_font_color: #000;
+$aside_font_color: #888;
+
+input[type=text], textarea {
+  width: 80%;
+  padding: 5px 5px;
+  margin: 5px auto;
+  box-sizing: border-box;
+}
+
+textarea {
+  height: 200px;
+}
+
+input[type=submit] {
+  position: relative;
+  width: 50%;
+  padding: 5px 5px;
+  margin: 5px auto;
+  box-sizing: border-box;
+  background: $aside_font_color;
+  color: black;
+}

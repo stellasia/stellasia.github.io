@@ -24,20 +24,16 @@ Beside data analysis, I can also write reliable code (including webservices and 
 		<li>bayesian analysis and its applications</li>
         <li>graph database (neo4j for instance) and graphs in general</li>
 	</ul> 
-</p> 
-<p>Feel free to contact me via <a href="https://www.linkedin.com/in/estellescifo/">Linkedin</a> if you want to know more.</p>
+</p>
 </div>
-
-<!--
-<div class="info">
-Want to hire me for 1-1 short sessions or freelance jobs? 
-<a href="https://www.codementor.io/estellescifo?utm_source=github&utm_medium=button&utm_term=estellescifo&utm_campaign=github"><img src="https://cdn.codementor.io/badges/i_am_a_codementor_dark.svg" alt="I am a codementor" style="max-width:100%"/></a>
-</div>
--->
 
 <div class="warning">
-I am available for short freelance missions via <a href="https://www.malt.fr/profile/estellescifo">MALT</a>.
+<a href="/contact">Let's talk!</a>
 </div>
+
+<!-- <div class="warning"> -->
+<!-- I am available for short freelance missions via <a href="https://www.malt.fr/profile/estellescifo">MALT</a>. -->
+<!-- </div> -->
 
 
 # Tools
