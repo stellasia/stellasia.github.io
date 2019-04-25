@@ -38,6 +38,11 @@ Beside data analysis, I can also write reliable code (including webservices and 
 
 # Tools
 
+- **Graph data analysis**:
+    - Neo4j graph database (certified): create the data model that best suits your use-case
+	- Graph algorithms: extract information from your graph data
+	- Machine learning on graphs: apply machine learning predictive methods on graph data
+
 - **Data science & machine learning**: python data analysis toolkit ie: numpy, scipy, pandas, scikit-learn
     - Modelisation (math formulation)
     - Implementation
