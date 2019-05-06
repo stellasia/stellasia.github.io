@@ -30,16 +30,27 @@ p.clear {
 }
 
 .info {
-    border-left: 15px solid darkgreen;
-    background: #B0F2B6;
+    border-left: 10px solid #B0F2B6;
+    background: #eee;
     padding: 1ex;
     margin: 1em;
 }
+
 .warning {
-    border-left: 15px solid red;
-    background: #FFDAF9;
+    border-left: 10px solid #FFDAF9;
+    background: #eee;
     padding: 1ex;
     margin: 1em;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-red {
+    color: red;
 }
 
 .page {
@@ -93,6 +104,16 @@ p.clear {
         width: 79%;
         float: right;
 	margin-left: 10px;
+        p {
+	    width: 100%;
+	    display: block;
+	    img {
+	        width: 60%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto		
+            }
+	}
     }
     .asides {
     	width: 19%;
