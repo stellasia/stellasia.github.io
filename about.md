@@ -11,7 +11,7 @@ You can find more information about my professional experience on my linkedin or
 
 I have completed a PhD in particle physics in 2014 during which I was part of the exciting ATLAS experiment at **CERN**. Analyzing *billions of data events*, we were able to show the existence of a long searched particle, the Higgs boson. Its discovery leads to the [2013 Nobel prize in Physics](https://www.nobelprize.org/prizes/physics/2013/summary/) for the theoreticians who predicted the existence of this particle.
 
-After this PhD, I decided to leave academia to explore diverse fields, still through **data analysis** and **mathematical modelisation** that helps solve real-life problems.
+After this PhD, I decided to leave academia to explore diverse fields, still through **data analysis** and **mathematical modeling** that helps solve real-life problems.
 
 I am interested in many topics, with a strong belief in "fair machine learning" and "responsible data science". In my opinion, it goes through teaching and explaining to all the involved people what can and can't be done with data, and what a model result really is, taking into account its **uncertainties**. 
 
@@ -20,8 +20,8 @@ Beside data analysis, I can also write reliable code (including webservices and 
 <div class="info">
 <p>Right now, I am mainly interested in topics including but not limited to:
     <ul>
-        <li>graphs in general and especially neo4j and graph algorithms</li>
-		<li>mathematical/statistical modelisation</li>
+        <li>graph data and algorithms to extract meaningful information from it</li>
+		<li>mathematical/statistical modeling</li>
 		<li>bayesian analysis and its applications</li>
 	</ul> 
 </p>
@@ -59,7 +59,7 @@ Beside data analysis, I can also write reliable code (including webservices and 
 
 - _2019-05_: **'Exploring Graph Algorithms with Neo4j' video course author** at Packt Publishing. [Available here](https://www.packtpub.com/application-development/exploring-graph-algorithms-neo4j-video).
 
-![Course cover](/img/1853654-original.png){:width="40%"}
+![Course cover](/img/1853654-original.png){:width="30%"}
 
 
 - _2018-_ : **Lead Data Scientist** at Motion-S (www.motion-s.com/) (Luxembourg): road accident risk estimation from driver behaviour (telematic and contextualized data)
