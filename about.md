@@ -38,19 +38,24 @@ Beside data analysis, I can also write reliable code (including webservices and 
 
 # Tools
 
-- **Graph data analysis**:
-    - Neo4j graph database (certified): create the data model that best suits your use-case
-	- Graph algorithms: extract information from your graph data
-	- Machine learning on graphs: apply machine learning predictive methods on graph data (graph embeddings...)
-
 - **Data science & machine learning**: python data analysis toolkit ie: numpy, scipy, pandas, scikit-learn
     - Create the model (mathematical formulation)
     - Implementation (efficient code)
     - Validation with simulations (Monte-Carlo techniques)
     - Visualization (including maps)
-- **Database**: SQL (Postgresql, Postgis), Cypher (Neo4j)
+
+- **Graph data analysis**:
+    - Neo4j graph database (certified): create the data model that best suits your use-case
+	- Graph algorithms: extract information from your graph data
+	- Machine learning on graphs: apply machine learning predictive methods on graph data (graph embeddings...)
+
+
 - **Web development**: django, HTML, CSS, JS; webservices (RPC, REST, GraphQL)
+
+- **Database**: SQL (Postgresql, Postgis), Cypher (Neo4j)
+
 - Development: python (pytest, sphinx), C++, Java (groovy)
+
 - Linux (some server management with ansible), git (gitlab)
 
 
@@ -59,7 +64,7 @@ Beside data analysis, I can also write reliable code (including webservices and 
 
 - _2019-05_: **'Exploring Graph Algorithms with Neo4j' video course author** at Packt Publishing. [Available here](https://www.packtpub.com/application-development/exploring-graph-algorithms-neo4j-video).
 
-![Course cover](/img/1853654-original.png){:width="30%"}
+![Course cover](/img/1853654-original.png){:width="10%"}
 
 
 - _2018-_ : **Lead Data Scientist** at Motion-S (www.motion-s.com/) (Luxembourg): road accident risk estimation from driver behaviour (telematic and contextualized data)
