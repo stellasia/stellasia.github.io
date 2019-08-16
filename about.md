@@ -64,7 +64,7 @@ Beside data analysis, I can also write reliable code (including webservices and 
 
 - _2019-05_: **'Exploring Graph Algorithms with Neo4j' video course author** at Packt Publishing. [Available here](https://www.packtpub.com/application-development/exploring-graph-algorithms-neo4j-video).
 
-![Course cover](/img/1853654-original.png){:width="10%"}
+![Course cover](/img/1853654-original.png){:style="width: 20%"}
 
 
 - _2018-_ : **Lead Data Scientist** at Motion-S (www.motion-s.com/) (Luxembourg): road accident risk estimation from driver behaviour (telematic and contextualized data)
