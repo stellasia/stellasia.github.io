@@ -15,7 +15,7 @@ The graph looks like this:
 
 ![ZKC dataset!](/img/posts/zkc/ZKC.png){:width="80%"}
 
-First, we will install the [ml-models](https://github.com/neo4j-graph-analytics/ml-models/) library for Neo4j. To do so, just download the last release jar from [here](https://github.com/neo4j-graph-analytics/ml-models/releases) and copy the jar file to the `plugins` directory of your database. If you are using Neo4j Desktop, you can easily find this folder by opening a terminal in the application. 
+First, we will install the [ml-models](https://github.com/neo4j-graph-analytics/ml-models/) library for Neo4j. To do so, just download the last release jar from [here](https://github.com/neo4j-graph-analytics/ml-models/releases) and copy the jar file to the `plugins` directory of your database. If you are using Neo4j Desktop, you can easily find this folder by opening a terminal in the application or using the "Open Directory" tool in the management window.
 
 Now you can start (or restart) your graph and we'll directly use the deep walk embedding procedure. For explanations about how deep walk works, please check [this article](https://towardsdatascience.com/deepgl-on-neo4j-b27e8c64190f)
 
@@ -24,9 +24,11 @@ So, let's find the deep walk embedding for the ZKC graph. It uses the same patte
     CALL embedding.deepWalk()
 
 
-At that step, it is possible you will see some errors related to security issues. You will have to change your graph settings to modify this property:
+At that step, you might see some errors related to security issues. In that case, you have to change your graph settings to modify this property:
 
     dbms.security.procedures.unrestricted=*
+
+and then restart neo4j.
 
 Once the algorithm execution is working and finished, you can see that your nodes have a new property called `deepWalk` consisting in a list of numbers. Let's extract this information into a csv file to analyze it:
 
