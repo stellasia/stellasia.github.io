@@ -6,6 +6,7 @@ summary: You can directly use an existing graph db in your local environment.
 date: 2019-04-25 15:00:00
 ---
 
+
 Graph embedding is a temendous topic, evolving very quickly. In this post, I want to show you how to use DeepWalk embedding on a Neo4j graph. 
 
 First, we will start from the famous Zachary's karate club dataset. You can find the data and installation instructions [here](https://github.com/PacktPublishing/Exploring-Graph-Algorithms-with-Neo4j/tree/master/section3/dataset).
@@ -42,18 +43,15 @@ Let's now import this data into a `pandas.DataFrame` :
     nd = d['n.deepWalk'].str.strip('[]').str.split(',').apply(pd.Series)
 
 
-Now that we have dataframe where each row is a node and each column a feature learned by the DeepWalk algorithm, let's run some clustering algorithm on it:
-
-    from sklearn.cluster import KMeans
-	X = nd
-	kmeans = KMeans(n_clusters=3, random_state=1234).fit(X)
-    lab = kmeans.labels_
-
-If we want to visualize the results, let's extract the principal components with some PCA:
+Now that we have dataframe where each row is a node and each column a feature learned by the DeepWalk algorithm, let's run some clustering algorithm on it. But first, let's run some PCA to reduce the number of features:
 
     from sklearn.decomposition import PCA
+    from sklearn.cluster import KMeans
     pca = PCA(n_components=2)
-    X_red = pca.fit_transform(X)
+    X_red = pca.fit_transform(nd)
+	kmeans = KMeans(n_clusters=3, random_state=1234)
+	kmeans.fit(X_red)
+    lab = kmeans.labels_
 
 
 And finally plot the result:
@@ -73,7 +71,7 @@ And finally plot the result:
     plt.show()	
 	
 
-![Kmeans clustering on DeepWalk features and PCA extraction for plotting](/img/posts/zkc/ZKC_Kmeans_PCA.png)
+![Kmeans clustering on DeepWalk features after PCA feature extraction](/img/posts/zkc/ZKC_Kmeans_PCA.png)
 
 
 Let's visualize the results in a different way, using the previous graph layout:
