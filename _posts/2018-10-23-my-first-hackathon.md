@@ -1,10 +1,13 @@
 ---
 layout: post
 title: "My first hackathon"
-category: misc
+category: misc pyhton
 summary: Thoughts about my participation in the lux4good hackthon
 date: 2018-10-23 21:00:00
 ---
+
+> The github repo for this hackathon can be found [here](https://github.com/stellasia/l4gims) (forked from [this one](https://github.com/remil1000/l4gims), thanks Remi!).
+
 
 You know hackathon, those events where you are asked to code, just code for at least 24 hours non stop? Well, this is not exactly how it works, but this was my impression before last week. With this image in mind, I was not really enthousiast in joining such an event.
 
@@ -50,4 +53,3 @@ Before finishing, I have to say a big thanks to the organizers (we had all infor
 
 ![The awesome #nodata team!](https://image-store.slidesharecdn.com/6f2fbfa6-7384-4e05-8e84-0e29c982682f-original.jpeg){:width="60%"}
 
-The github repo for this hackathon can be found [here](https://github.com/stellasia/l4gims) (forked from [this one](https://github.com/remil1000/l4gims), thanks Remi!).
