@@ -32,7 +32,7 @@ So, let's generate some sample data. For this exercice, we will generate a dataf
 Here is how I generate some random data:
 
     PARAMS = {
-    	    # mu, sigma
+    	# mu, sigma
         "A": (0, 1),
         "B": (1, 1),
         "C": [0, 2],
@@ -59,10 +59,10 @@ In the old days, I would have done something like this:
     plt.title(f"Gaussian {name} $\Rightarrow \mu={PARAMS[name][0]}$, $\sigma={PARAMS[name][1]}$")
     plt.show()
 
-
+Now, I could not live anymore without;
 
     @interact
-    def plot(name=data.columns):
+    def plot(name=list(data.columns)):
         d = data[name]
         plt.hist(d, bins=20, range=(-5, 5), alpha=0.7)
         plt.xlabel("x")
@@ -71,11 +71,16 @@ In the old days, I would have done something like this:
         plt.show()
 
 
+Which can configured even further, for instance:
+
     @interact
-    def plot(name=data.columns, n_bins=20):
+    def plot(name=list(data.columns), n_bins=20):
         d = data[name]
         plt.hist(d, bins=n_bins, range=(-5, 5), alpha=0.7)
         plt.xlabel("x")
         plt.ylabel("y")
         plt.title(f"Gaussian {name} $\Rightarrow \mu={PARAMS[name][0]}$, $\sigma={PARAMS[name][1]}$")
         plt.show()
+
+
+![Interactive notebook](/img/posts/interactive_notebook.png)

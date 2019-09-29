@@ -16,7 +16,7 @@ We will be using a quite simple schema, considering only People, Items that can 
 
 It is illustrated below:
 
-![Graph schema](img/reco_graph_ql_schema.png)
+![Graph schema](/img/posts/reco_graph_db_schema.png)
 
 
 ## GraphQL schema
@@ -56,6 +56,10 @@ To let the graphQL plugin know about it, we just have to call the procedure ` gr
 We can check the schema we created with:
 
     CALL graphql.schema()
+
+which prints something like:
+
+![Graph QL schema](/img/posts/reco_graph_ql_schema.png)
 
 
 If you're not happy with it, you can still:
@@ -119,7 +123,12 @@ If we were to write the Cypher query to retrieve items linked to friends of a gi
 Adding this to our grqphQL schema is as easy as modifying the schema to add ` reco` field in the `Person` type:
 
 		reco: [Item]
-     	   @cypher(statement: "MATCH (this)-[:FRIEND_WITH]-(:Person)-[:LINKED_TO]->(j:Item) WHERE NOT (this)-[:LINKED_TO]->(j) RETURN j LIMIT 3")
+     	   @cypher(statement: "
+		   MATCH (this)-[:FRIEND_WITH]-(:Person)-[:LINKED_TO]->(j:Item) 
+		   WHERE NOT (this)-[:LINKED_TO]->(j) 
+		   RETURN j 
+		   LIMIT 3
+	   ")
 
 
 The query could then look like:
@@ -156,4 +165,3 @@ Which brings:
 	}
 
 Many improvements can be done on this basic recommendation engine, taking into account how many friends are linked to the item, friends of friends... 
-
