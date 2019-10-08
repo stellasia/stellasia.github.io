@@ -21,7 +21,7 @@ app = Flask(__name__)
 def classify():
     if request.method == 'POST':
 		# if POST method, return json response
-		return jonify({
+		return jsonify({
 			"some_key": "some_value",
 			})
     # if method == GET, render the html form
