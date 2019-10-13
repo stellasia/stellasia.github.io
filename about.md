@@ -62,6 +62,11 @@ Beside data analysis, I can also write reliable code (including webservices and 
 
 # Experience
 
+- _2019-09_: Winner of [Global GraphHack hackathon 2019](https://globalgraphhack.devpost.com/) organized by neo4j with the project: [neomap](https://github.com/stellasia/neomap/). Watch the video demo [here](https://devpost.com/software/neomap-m4xcju).
+
+![neomap screenshot](/img/neomap_screenshot.jpg){:style="width: 20%"}
+
+
 - _2019-05_: **'Exploring Graph Algorithms with Neo4j' video course author** at Packt Publishing. [Available here](https://www.packtpub.com/application-development/exploring-graph-algorithms-neo4j-video).
 
 ![Course cover](/img/1853654-original.png){:style="width: 20%"}
