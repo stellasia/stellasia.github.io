@@ -3,7 +3,7 @@ layout: post
 title: "A time series model"
 category: python
 summary: A small hand-made model to minimize a dealer losses
-date: 2020-01-30 21:00:08:00
+date: 2020-01-29 19:00:08:00
 ---
 
 
