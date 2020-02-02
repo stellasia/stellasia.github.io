@@ -75,6 +75,7 @@ AS $$
 	-- select is performed
 	SELECT user_id, now() as exec_date, n_records, avg_value
 	FROM aggregates
+	-- change the return values of INSERT statement (default is the number of inserted rows)
 	RETURNING *
 	;
 

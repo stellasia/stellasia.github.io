@@ -133,7 +133,7 @@ def f(params, *args):
     t = data.t
     y_obs = data.y
     y_pred = model(t, params)
-    gl = grocery_losses(y_obs, y_pred)
+    gl = loss(y_obs, y_pred)
     l = gl.sum()
     return l
 
@@ -219,7 +219,7 @@ trend_param_init = res_trend.x.tolist()
 yearly_param_init = [0.1, 0.1] * N_COMPONENT_YEARLY
 param_init = trend_param_init + yearly_param_init
 
-res = optimize.minimize(objective_function, args=(data_train, full_model), 
+res = optimize.minimize(f, args=(data_train, full_model),
                         x0=param_init, 
                         tol = 100,
                        )
