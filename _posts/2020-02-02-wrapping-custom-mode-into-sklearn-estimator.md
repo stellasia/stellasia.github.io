@@ -100,16 +100,19 @@ Now we can enter into the interesting part. The content of the function is almos
 ```python
 class TSEstimatory(BaseEstimator, RegressorMixin):
 
-    def __init__(self, n_seasonal_components=6, penalty=0, **model_hyper_parameters):
+    def __init__(self, n_seasonal_components=6, **model_hyper_parameters):
         """
         """
         super().__init__()
         self.n_seasonal_components = n_seasonal_components
-        self.penalty = penalty
         # fitted parameters, initialized to None
         self.params_ = None
 
     # 1. Building the model
+	@property
+	def penalty(self):
+		return 0
+
     def _seasonality_model(self, t, params):
         x = fourier_series(t, 52, self.n_seasonal_components)
         return x @ params
@@ -131,7 +134,7 @@ class TSEstimatory(BaseEstimator, RegressorMixin):
             y_obs >= y_pred, 
             # if real sales are above the predicted ones
             # the only gain is the stock price, so y_pred
-            expenses - (fresh_price(y_pred) + self.penalty),
+            expenses + self.penalty - fresh_price(y_pred),
             # if real sales are below the predicted ones
             # we earn the fresh price for the sales of the day + frozen price of the leftover
             expenses - (fresh_price(y_obs) + frozen_price(y_pred - y_obs))
@@ -199,7 +202,7 @@ e.predict(data.t.iloc[-10:])
 
 ## Final word
 
-As already said, the advantage is that now, our model can be used in conjunction with any other sklearn tools: pipelines, grid search to optimize the hyper parameters (`n_seasonal_components` and `penalty`)... This includes the model persistence tools! Meaning we can dump a fitted `TSEstimator`:
+As already said, the advantage is that now, our model can be used in conjunction with any other sklearn tools: pipelines, grid search to optimize the hyper parameters (`n_seasonal_components`)... This includes the model persistence tools! Meaning we can dump a fitted `TSEstimator`:
 
 ```python
 from joblib import dump

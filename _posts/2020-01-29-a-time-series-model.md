@@ -12,12 +12,12 @@ date: 2020-01-29 19:00:08:00
 
 The problem can be formulated in the following way:
 
-- a dealer buys a fresh product called A at the price of 1 €/kg
-- the products bought on given week w are sold at the price of 2.5 €/kg
-- all fresh products bought during week w and that not be sold during that week are frozen to be sold the following weeks, but at the lower price of 0.6 €/kg
+- a dealer buys a fresh product called A at the price of 1.5 €/ton
+- the products bought on given week w are sold at the price of 2.5 €/T
+- all fresh products bought during week w and that not be sold during that week are frozen to be sold the following weeks, but at the lower price of 0.8 €/T
 - dealer is aware that if the demand is higher than the offer, he might loose clients, so he is very concerned to be able to meet the demand as much as possible
 
-The goal is to predict how much the dealer should buy, to minimize his losses.
+The goal is to predict how much the dealer should buy, to maximize the benefits (minimize the losses).
 
 
 # Data
@@ -34,7 +34,7 @@ A sample data looks like:
 4 	2015-02-02 	1.096
 ```
 
-Where ds is the first day of the week and y is the number of tons of product A sold by the dealer.
+Where `ds` is the first day of the week and `y` is the number of tons of product A sold by the dealer.
 
 ![Data](/img/posts/time_series_dealer_data.png)
 
@@ -69,7 +69,7 @@ def loss_(y_obs, y_pred):
     # if real sales are above the predicted ones
     # the only gain is the stock price, so y_pred
     if y_obs >= y_pred:
-        return expenses - ( fresh_price(y_pred) + PENALTY ) 
+        return expenses + PENALTY - fresh_price(y_pred) 
     # if real sales are below the predicted ones
     # we earn the fresh price for the sales of the day + frozen price of the leftover
     return expenses - ( fresh_price(y_obs) + frozen_price( y_pred - y_obs))
@@ -77,7 +77,7 @@ def loss_(y_obs, y_pred):
 loss = np.vectorize(loss_)
 ```
 
-The `PENALTY` paramter was introduced in order to penalize the dealer if he is not able to meet the customer demand. For now it is set to 0 and can be tuned as a model hyperparameter.
+The `PENALTY` paramter was introduced in order to penalize the dealer if he is not able to meet the customer demand. For now it is set to 0 but it can be tuned to match the dealer expectations.
 
 The loss function is tested since it is the core of the analysis:
 
@@ -90,7 +90,7 @@ def test_losses():
     assert np.allclose(b, e)
 
     b = loss([20, 20], [10, 10])
-    e = ( (10 * PURCHASSED_PRICE) - 10 * FRESH_PRICE - PENALTY)
+    e = ( (10 * PURCHASSED_PRICE) + PENALTY - 10 * FRESH_PRICE)
     e = np.array([e, e])
     assert np.allclose(b, e)
 
