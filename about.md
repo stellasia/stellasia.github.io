@@ -52,12 +52,26 @@ Beside data analysis, I can also write reliable code (including webservices and 
 
 - **Web development**: django, HTML, CSS, JS; webservices (RPC, REST, GraphQL)
 
-- **Database**: SQL (Postgresql, Postgis), Cypher (Neo4j)
+- **Database**: SQL (Postgresql, Postgis), graph databases (Neo4j, arangoDB)
 
-- Development: python (pytest, sphinx), C++, Java (groovy)
+- Development: python (pytest, sphinx), C++, Java
 
 - Linux (some server management with ansible), git (gitlab)
 
+
+# Achievements
+
+- 2019-12: [Graphie Award - Community MVP](https://neo4j.com/press-releases/neo4j-announces-2019-graphie-award-winners/)
+- 2018-12: [Neo4j Certified Professional](https://graphacademy.neo4j.com/certificates/43898ee59d183928339d23f5e21d52276054b3b133d48a03e71bebab024ad242.pdf)
+- 2018-10: second prize at the lux4good hackathon on measuring diversity within company's employees:
+    - Development of a django website from scratch [github repository](https://github.com/stellasia/l4gims)
+
+
+# Talks
+
+- 2019-10: PyConFR (Bordeaux, France):
+    - _From SQL to Graph Databases with Neo4j_
+	- _Data augmentation with graph algorithms_
 
 
 # Experience
@@ -72,7 +86,10 @@ Beside data analysis, I can also write reliable code (including webservices and 
 ![Course cover](/img/1853654-original.png){:style="width: 20%"}
 
 
-- _2018-_ : **Lead Data Scientist** at Motion-S (www.motion-s.com/) (Luxembourg): road accident risk estimation from driver behaviour (telematic and contextualized data)
+- _2018-_ : **Lead Data Scientist** at Motion-S (www.motion-s.com/) (startup in the mobility area, Luxembourg): 
+    - Statistical models for driver road accident risk estimation from driver behaviour, contextual and road statistics data
+	- Road network model using graph technologies
+	- Dashboards to present results to prospects (VUE.js)
 
 
 - _2011 -_: **Teaching**
@@ -81,7 +98,7 @@ Beside data analysis, I can also write reliable code (including webservices and 
     - _2011-2014_: python practical works for undergraduate students
 
 
-- _2014-2018_ : **Data Scientist** at effiCity (www.efficity.com/) (working remotely, France):
+- _2014-2018_ : **Data Scientist** at effiCity (www.efficity.com/) (real estate company, France) (working remotely):
     - Real estate estimation algorithm:
 	    - Mathematical formulation with parameter fitting on real data
 	    - Implementation with the  **python** stack (numpy, pandas, scipy, sklearn)
@@ -92,7 +109,7 @@ Beside data analysis, I can also write reliable code (including webservices and 
 	    - Function minimization (scipy)
 	    - Clustering to identify cities with similar caracteristics
     - As always, internal note and code documentation
-    - Participation to the team projects especially front-end development (django), including CSS integration and JS scripts
+    - Participation to the team projects especially web development (django), including CSS integration and JS (jQuery) scripts
 
 
 - _2011-2014_: **PhD** in Particle physics (Université Paris Sud/LAL, Orsay, France)
@@ -100,9 +117,3 @@ Beside data analysis, I can also write reliable code (including webservices and 
 	- Hypothesis testing (likelihood) and best parameter estimation with the [C++ ROOT](//root.cern.ch) framework
 	- Analyze billions of events on distributed data analysis system (Big data)
 
-
-# Achievements
-
-- 2018-12: [Neo4j Certified Professional](https://graphacademy.neo4j.com/certificates/43898ee59d183928339d23f5e21d52276054b3b133d48a03e71bebab024ad242.pdf)
-- 2018-10: second prize at the lux4good hackathon on measuring diversity within company's employees:
-    - Development of a django website from scratch [github repository](https://github.com/stellasia/l4gims)

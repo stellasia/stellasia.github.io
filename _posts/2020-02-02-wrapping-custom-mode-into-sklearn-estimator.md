@@ -2,7 +2,7 @@
 layout: post
 title: "Wrapping a custom model into a sklearn estimator"
 tags: python data
-summary: 
+summary: Using the sk-learn API for a custom model created with numpy/scipy
 date: 2020-02-02 15:32:08:00
 ---
 
