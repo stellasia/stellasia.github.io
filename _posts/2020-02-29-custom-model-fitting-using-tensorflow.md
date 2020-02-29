@@ -181,7 +181,7 @@ losses = model.train(X_train, Y_train, lr=0.1, epochs=1200)
 
 The first test I performed here, which could have been done with the scipy model as well, is to check the influence of the custom loss function on the results. For this, I only use the trend component, which is equivalent to setting `n=0` in the model. The comparison of the result if illustrated below:
 
-![Loss function comparison on trend model](/img/posts/time_series_dealer_trend_comparison.png)
+![Loss function comparison on trend model](/img/posts/time_series_dealer_tf_trend_comparison.png)
 
 
 It is kind of expected that the custom loss function allows higher predictions, since the leftovers won't be simply lost but also bring value, compared to the classical MSE loss that only sees predictions lower than the true value the same way as predictions below the true value.
@@ -191,11 +191,11 @@ It is kind of expected that the custom loss function allows higher predictions, 
 
 Training the full model with `n=8` like in our previous implementation, we obtain this nice behaviour for the loss function:
 
-![Losses for full model](/img/posts/time_series_dealer_losses.png)
+![Losses for full model](/img/posts/time_series_dealer_tf_losses.png)
 
 And a final model very close to the one obtained with scipy:
 
-![Losses for full model](/img/posts/time_series_dealer_full_model.png)
+![Losses for full model](/img/posts/time_series_dealer_tf_full_model.png)
 
 
 A nice advantage of tensorflow gradient descent compared to other optimization techniques, at least for this particular model, is that it is much less sensitive to the parameters initial values. Initializing all parameteres to 0 will still converge, which was not the case for the other techniques tested earlier.
