@@ -63,15 +63,16 @@ Beside data analysis, I can also write reliable code (including webservices and 
 
 - 2019-12: [Graphie Award - Community MVP](https://neo4j.com/press-releases/neo4j-announces-2019-graphie-award-winners/)
 - 2018-12: [Neo4j Certified Professional](https://graphacademy.neo4j.com/certificates/43898ee59d183928339d23f5e21d52276054b3b133d48a03e71bebab024ad242.pdf)
-- 2018-10: second prize at the lux4good hackathon on measuring diversity within company's employees:
-    - Development of a django website from scratch [github repository](https://github.com/stellasia/l4gims)
+- 2018-10: second prize at the Lux4Good hackathon (team made of 4 persons):
+    - Project about measuring diversity within company's employees (gender, age, disability...)
+    - Development of a django website from scratch, visualization with D3.js: [github repository](https://github.com/stellasia/l4gims)
 
 
 # Talks
 
-- 2019-10: PyConFR (Bordeaux, France):
-    - _From SQL to Graph Databases with Neo4j_
-	- _Data augmentation with graph algorithms_
+- 2019-10: PyConFR in Bordeaux, France (Content is in French):
+    - _From SQL to Graph Databases with Neo4j_: [Youtube](https://www.youtube.com/watch?v=lk3cRSrVMTo&list=PL_dGzOUQ0cyh9OPCiPXyRP9Px72SCHUZ_&index=31&t=0s) - [GitHub](https://github.com/stellasia/pyconfr19/blob/master/SQL2Neo4j.pdf)
+	- _Data augmentation with graph algorithms_: [Youtube](https://www.youtube.com/watch?v=v_EZTo45FtE&list=PL_dGzOUQ0cyh9OPCiPXyRP9Px72SCHUZ_&index=69&t=0s) - [GitHub](https://github.com/stellasia/pyconfr19/blob/master/GraphAlgorithms.pdf)
 
 
 # Experience
@@ -86,7 +87,7 @@ Beside data analysis, I can also write reliable code (including webservices and 
 ![Course cover](/img/1853654-original.png){:style="width: 20%"}
 
 
-- _2018-_ : **Lead Data Scientist** at Motion-S (www.motion-s.com/) (startup in the mobility area, Luxembourg): 
+- _2018-2020_ : **Lead Data Scientist** at Motion-S (www.motion-s.com/) (startup in the mobility area, Luxembourg):
     - Statistical models for driver road accident risk estimation from driver behaviour, contextual and road statistics data
 	- Road network model using graph technologies
 	- Dashboards to present results to prospects (VUE.js)
