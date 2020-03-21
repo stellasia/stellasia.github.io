@@ -10,7 +10,7 @@ date: 2020-03-21 11:00:08:00
 "Responsible AI" has been around for quite  a long time. Today, all big companies provide advices and best practices to use AI in a ethical way. As an example, you can take a look at the recommendations from those big tech companies:
 
 - [Google](https://ai.google/responsibilities/responsible-ai-practices/)
-- [Microsoft]https://www.microsoft.com/en-us/ai/responsible-ai()
+- [Microsoft](https://www.microsoft.com/en-us/ai/responsible-ai)
 
 Other initiatives have also arisen from the large community of data scientists over there.
 
@@ -22,6 +22,9 @@ Looking into all these ressources, it seems to me that, as a Data Scientist, I h
 ## Awareness
 
 We are living in a fantastic era. Thanks to computers and the very smart people programming them, we are able to achieve incredible results and help many people in their day to day life (e.g. document automatic classification), healthcare (cancer detection), mobility (semi-autonomous cars are already there!), leisure and so on and so forth.
+
+![Image from Facebook engineering](https://engineering.fb.com/wp-content/uploads/2016/08/GEvd1wB3yImDEM8FAL0d0xYAAAAAbj0JAAAB.jpg)
+__(Credit: https://engineering.fb.com/ml-applications/segmenting-and-refining-images-with-sharpmask/)__
 
 But, as we all know, the best models is the world has its own limits. It is our **duty**, as people producing these models, to be **aware** of these limitations. Each part of the data pipeline, from the data collection to the model performance evaluation can be somehow biased. 
 
