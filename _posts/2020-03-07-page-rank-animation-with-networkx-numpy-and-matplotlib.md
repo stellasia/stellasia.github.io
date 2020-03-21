@@ -2,7 +2,7 @@
 layout: post
 title: "Visualizing PageRank using networkx, numpy and matplotlib in python"
 tags: python algorithm graph
-summary: 
+summary: Numpy implementation of the PageRank algorithm and convergence visualization with animated gif
 date: 2020-03-07 18:00:08:00
 ---
 
