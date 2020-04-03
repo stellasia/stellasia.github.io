@@ -3,7 +3,7 @@ layout: post
 title: "Random forest VS Gradient boosting"
 tags: algorithm statistics data
 summary: An overview of ensemble methods: bagging VS boosting techniques.
-date: 2020-04-03 21:00:08:00
+date: 2020-04-03 21:00:00:00
 ---
 
 
