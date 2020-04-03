@@ -6,13 +6,12 @@ summary: An overview of ensemble methods: bagging VS boosting techniques.
 date: 2020-04-03 21:00:00:00
 ---
 
+Today I am trying to explain the difference between two ensemble models: random forest, a particular case of **bagging**, and gradient **boosting**.
 
 > Personal context: in a recent interview, among other stuffs, I was asked the difference between random forest and gradient boosting. I was not able to give a convincing answer and totally failed at this interview (not only because of that question of course, but it was so frustrating for me because I knew the answer and was just not able to put the words in the correct order :()
 
 > But, since I don't like to repeat the same mistake twice and I think a failure is a failure only if we do not learn from it, I decided to rework that particular point, so that I never have such as confusing speech about it in the future. So this post is mainly a note to myself, but if it can useful to others, that's even better. Please take a look at the references at the end of this article to get deeper.
 
-
-So, today I am trying to explain the difference between two ensemble models: random forest, a particular case of **bagging**, and gradient **boosting**.
 
 Both of them are based on a "weak learner" (aka "base models"). The base models can be a decision tree, but not only. Ensemble methods consist in training multiple weak learners and somehow merge their results to build a "strong learner". They differ on two key points:
 
