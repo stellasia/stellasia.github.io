@@ -117,16 +117,15 @@ Also note that the util functions `algo.getNodeById` has been moved to `gds.util
 
 
 - GA:
-       ```
-	   CALL algo.pageRank.stream(null, null, {direction: "BOTH", dampingFactor: 0.5, iterations: 50})
-	   YIELD nodeId, score
-	   RETURN algo.getNodeById(nodeId).pId, score
-	   ORDER BY score DESC
-       ```
-
+    ```
+	CALL algo.pageRank.stream(null, null, {direction: "BOTH", dampingFactor: 0.5, iterations: 50})
+	YIELD nodeId, score
+	RETURN algo.getNodeById(nodeId).pId, score
+	ORDER BY score DESC
+    ```
 - GDS:
-       ```
-	   CALL gds.pageRank.stream({
+    ```
+	CALL gds.pageRank.stream({
 		   nodeProjection: "*",
 		   relationshipProjection: {
 			   LINKED_TO: {
@@ -137,12 +136,11 @@ Also note that the util functions `algo.getNodeById` has been moved to `gds.util
 		   },
 		   dampingFactor: 0.5,
 		   maxIterations: 50
-		})
-		YIELD nodeId, score
-		RETURN gds.util.asNode(nodeId).pId, score
-		ORDER BY score DESC
-	   
-       ```
+	})
+	YIELD nodeId, score
+	RETURN gds.util.asNode(nodeId).pId, score
+	ORDER BY score DESC
+	```
 
 Closeness and betweenness are both in the alpha tier:
 
@@ -175,7 +173,6 @@ Example with Union find or Weakly connected components, native projection and st
 	YIELD nodeId, componentId as setId
 	RETURN gds.util.asNode(nodeId).pId, setId
 	ORDER BY setId
-	
 	```
 
 Example with the Louvain algorithm, cypher projection and write mode:
