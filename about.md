@@ -54,7 +54,7 @@ Beside data analysis, I can also write reliable code (including webservices and 
 
 - **Database**: SQL (Postgresql, Postgis), graph databases (Neo4j, arangoDB)
 
-- Development: python (pytest, sphinx), C++, Java
+- Development: python (pytest, sphinx), C++, Java, ReactJS
 
 - Linux (some server management with ansible), git (gitlab)
 
@@ -77,6 +77,9 @@ Beside data analysis, I can also write reliable code (including webservices and 
 
 # Experience
 
+- _2020-04 / today_: Data scientist & backend developer at labellevie.fr (www.labellevie.fr) by Deleev, dark grocery:
+    - Logistics and automation through operation research tools (delivery dispatch and routes)
+
 - _2019-09_: Winner of [Global GraphHack hackathon 2019](https://globalgraphhack.devpost.com/) organized by neo4j with the project: [neomap](https://github.com/stellasia/neomap/). Watch the video demo [here](https://devpost.com/software/neomap-m4xcju).
 
 ![neomap screenshot](/img/neomap-screenshot.jpg){:style="width: 20%"}
@@ -87,7 +90,7 @@ Beside data analysis, I can also write reliable code (including webservices and 
 ![Course cover](/img/1853654-original.png){:style="width: 20%"}
 
 
-- _2018-2020_ : **Lead Data Scientist** at Motion-S (www.motion-s.com/) (startup in the mobility area, Luxembourg):
+- _2018-10 / 2020-04_ : **Lead Data Scientist** at Motion-S (www.motion-s.com/) (startup in the mobility area, Luxembourg):
     - Statistical models for driver road accident risk estimation from driver behaviour, contextual and road statistics data
 	- Road network model using graph technologies
 	- Dashboards to present results to prospects (VUE.js)
@@ -99,12 +102,12 @@ Beside data analysis, I can also write reliable code (including webservices and 
     - _2011-2014_: python practical works for undergraduate students
 
 
-- _2014-2018_ : **Data Scientist** at effiCity (www.efficity.com/) (real estate company, France) (working remotely):
-    - Real estate estimation algorithm:
+- _2014-12 / 2018-09_ : **Data Scientist** at effiCity (www.efficity.com/) (real estate company, France) (working remotely):
+    - Real estate estimation algorithm: 30% improvement compared to existing (estimation accuracy)
 	    - Mathematical formulation with parameter fitting on real data
 	    - Implementation with the  **python** stack (numpy, pandas, scipy, sklearn)
 	    - Validation with simulations
-	    - Push to production (create appropriate python package)!
+	    - Push to production (python package, model persistence)
     - Statistics:
 	    - Regression algorithm (KNN)
 	    - Function minimization (scipy)
