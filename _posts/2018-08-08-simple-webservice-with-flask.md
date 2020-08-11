@@ -56,8 +56,10 @@ You can put this HTML code in your `templates/index.html` file:
 	<h1>Image statistics</h1>
 	<h2>with flask</h2>
 
+	{% raw %}
 	<form method="POST" enctype="multipart/form-data" action="{{ url_for('classify') }}" > 
-		<div class="input-file-container">
+	{% endraw %}
+	   <div class="input-file-container">
 			<label for="my-file" class="label-file">Select a file...</label>		
 			<input class="input-file" id="my-file" type="file" name="image" multiple>
 	    </div>
@@ -155,7 +157,9 @@ def classify():
 
 And the error message can be displayed on the form:
 {% highlight html %}
-	<form method="POST" enctype="multipart/form-data" action="{{ url_for('classify') }}" > 
+   	{% raw %}
+   	 <form method="POST" enctype="multipart/form-data" action="{{ url_for('classify') }}" >
+	{% endraw %}
 	    {% if error %}
 	    <p class="error" >{{ error }}</p>
 	    {% endif %}
