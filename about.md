@@ -77,8 +77,13 @@ Beside data analysis, I can also write reliable code (including webservices and 
 
 # Experience
 
-- _2020-04 / today_: Data scientist & backend developer at labellevie.fr (www.labellevie.fr) by Deleev, dark grocery:
-    - Logistics and automation through operation research tools (delivery dispatch and routes)
+- _2020-09_: **'Hands-on Graph Analytics with Neo4j' book author** at Packt Publishing. Available on [Amazon](https://www.amazon.com/gp/product/B08FBJ3B1S) and on the [publisher website](https://www.packtpub.com/data/hands-on-graph-analytics-with-neo4j)
+
+![Book cover](/img/51vPQ6l1RdL.jpg){:style="width: 20%"}
+
+
+- _2020-04 / today_: Data scientist & backend developer at Deleev (www.labellevie.fr), dark grocery:
+    - Logistics and automation through operation research tools (delivery routes and dispatch based on business constraints)
 
 - _2019-09_: Winner of [Global GraphHack hackathon 2019](https://globalgraphhack.devpost.com/) organized by neo4j with the project: [neomap](https://github.com/stellasia/neomap/). Watch the video demo [here](https://devpost.com/software/neomap-m4xcju).
 

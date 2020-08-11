@@ -9,7 +9,7 @@
 title: Estelle Scifo - Data scientist
 email: 
 description: > # this means to ignore newlines until "baseurl:"
-  This is Estelle Scifo' personal website. Talking about data, science, data science, python, physics and other cool things.
+  This is Estelle Scifo' personal website. Talking about data, science, data science, python, physics, graphs and other cool things.
 baseurl: "" # the subpath of your site, e.g. /blog
 permalink: /:year/:month/:title.html
 timezone: Europe/Paris
