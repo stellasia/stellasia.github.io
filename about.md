@@ -89,7 +89,7 @@ Beside data analysis, I can also write reliable code (including webservices and 
 # Talks
 
 - 2020-10: [NODES 2020](https://neo4j.com/nodes-2020/) Online Conference organized by Neo4j:
-    - _Extending a Knowledge Graph from Wikidata_
+    - _Extending a Knowledge Graph from Wikidata_: [Youtube](https://www.youtube.com/watch?v=aB6Lb2-3S58)
 
 - 2019-10: [PyConFR](https://www.pycon.fr/2019/) in Bordeaux, France (Content is in French):
     - _From SQL to Graph Databases with Neo4j_: [Youtube](https://www.youtube.com/watch?v=lk3cRSrVMTo&list=PL_dGzOUQ0cyh9OPCiPXyRP9Px72SCHUZ_&index=31&t=0s) - [GitHub](https://github.com/stellasia/pyconfr19/blob/master/SQL2Neo4j.pdf)
