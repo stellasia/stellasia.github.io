@@ -40,16 +40,13 @@ class AmazonSpider(scrapy.Spider):
                 'content': content,
             }
 
-    def close(self, spider, reason):
-        self.output_callback(['Hi, This is the output.'])
-
 
 if __name__ == '__main__':
     process = CrawlerProcess(settings={
         "FEEDS": {
             "comments.json": {"format": "json"},
         },
-        'USER_AGENT': 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)'
+        'USER_AGENT': 'Defined'
     })
 
     process.crawl(AmazonSpider)
