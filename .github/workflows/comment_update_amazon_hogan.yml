@@ -26,7 +26,7 @@ jobs:
     - name: Comments scraping
       run: |
         python scripts/amazon_spider.py
-	cp comments.json _data/
+        cp comments.json _data/
     - name: Commit updated file
       run: |
        if ! git diff --no-ext-diff --quiet --exit-code; then
