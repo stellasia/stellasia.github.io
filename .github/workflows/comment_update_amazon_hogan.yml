@@ -1,0 +1,41 @@
+# This workflow will install Python dependencies, run script and push new commit to update _data directory
+
+name: Comment Update
+
+on:
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    - cron:  '0 0 * * 0'
+
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+  
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+    - name: Install python dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install scrapy
+    - name: Comments scraping
+      run: |
+        python scripts/amazon_spider.py
+	cp comments.json _data/
+    - name: Commit updated file
+      run: |
+       if ! git diff --no-ext-diff --quiet --exit-code; then
+          git add _data/comments.json
+          git config --local user.email "bot@bot.bot"
+          git config --local user.name "stellabot"
+          git commit -m "CRON Update comments"
+        fi
+    - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}

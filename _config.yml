@@ -22,7 +22,9 @@ url: "stellasia.github.io"
 markdown: kramdown
 exclude: [
   "Gemfile",
-  "Gemfile.lock"
+  "Gemfile.lock",
+  ".github",
+  "scripts",
 ]
 
 plugins:

@@ -1,0 +1,41 @@
+.publication {
+    h1 {
+	margin-bottom: 1em;
+    }
+    h2 {
+	margin-top: 2em;
+    }
+    h3 {
+	margin-top: 1.5em;
+    }
+ 
+    .comment-wrapper {
+	margin: 10px 15px;
+	padding: 4px;
+	box-shadow: 7px 7px 2px 2px grey;
+    }
+
+    .comment-content {
+	font-size: 0.8em;
+    }
+
+    ul li {
+	margin-left: 30px;
+	margin-top: 5px;
+    }
+    .margin {
+	margin-bottom: 10px;
+    }
+
+    .button {
+	appearance: button;
+	text-decoration: none;
+	padding: 10px;
+	background: gold;
+	box-shadow: 1px 1px 2px 2px grey;
+    }
+    .p-button {
+	text-align: center;
+	margin: 2em;
+    }
+}
