@@ -88,6 +88,9 @@ Beside data analysis, I can also write reliable code (including webservices and 
 
 # Talks
 
+- 2020-11: I was invited by the [WinDSML Meetup group from Bussels](https://www.meetup.com/fr-FR/Brussels-Women-in-Machine-Learning-and-Data-Science) to give a talk about:
+    - _Graph Databases for Machine Learning_: [Youtube](https://www.youtube.com/watch?v=0QGqU8I7gTA)
+
 - 2020-10: [NODES 2020](https://neo4j.com/nodes-2020/) Online Conference organized by Neo4j:
     - _Extending a Knowledge Graph from Wikidata_: [Youtube](https://www.youtube.com/watch?v=aB6Lb2-3S58)
 

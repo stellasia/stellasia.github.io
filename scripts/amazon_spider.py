@@ -17,7 +17,7 @@ class AmazonSpider(scrapy.Spider):
         country = response.css('div#cm_cr-review_list h3::text').get() or ""
         country = country .strip("\n ")
         url = urlparse(response.url).netloc
-        logging.warning("URL %s", response.url)
+        # logging.warning("URL %s", response.url)
         for comment in response.css('div.review'):
             title = comment.css('a.review-title span::text').get()
             content = comment.css('span.review-text-content span::text').extract()

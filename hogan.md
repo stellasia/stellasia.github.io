@@ -21,7 +21,10 @@ Or maybe you need more information before? No problem, you'll find below custome
 
 ## What people are saying about it?
 
+
 Reader reviews are definitely the better way to get an idea about a product. Below are comments automatically extracted from Amazon websites in several countries (USA, UK, Germany and France):
+
+_Last update: 2020-12-15_
 
 <div class="comments-wrapper">
   {% for comment in site.data.comments %}
