@@ -27,9 +27,11 @@ Beside data analysis, I can also write reliable code (including webservices and 
 </p>
 </div>
 
+<!--
 <div class="warning text-center text-red">
 <a href="/contact">Let's talk!</a>
 </div>
+-->
 
 <!-- <div class="warning"> -->
 <!-- I am available for short freelance missions via <a href="https://www.malt.fr/profile/estellescifo">MALT</a>. -->
@@ -102,7 +104,7 @@ Beside data analysis, I can also write reliable code (including webservices and 
 # Work Experience
 
 
-- _2020-04 / today_: **Data scientist & backend developer** at Deleev (www.labellevie.fr), dark grocery:
+- _2020-04 / today_: **Data scientist & backend developer** at Deleev (www.labellevie.com), dark grocery:
     - Logistics and automation through operation research tools (delivery routes and dispatch based on business constraints)
     - Code migration to newer package versions (including Python (3.4 => 3.8) and Django (1.9 => 2.2))
 
@@ -112,7 +114,7 @@ Beside data analysis, I can also write reliable code (including webservices and 
     - _2011-2014_: python practical works for undergraduate students
 
 
-- _2018-10 / 2020-03_ : **Lead Data Scientist** at Motion-S (www.motion-s.com/) (startup in the mobility area, Luxembourg):
+- _2018-10 / 2020-03_ : **Lead Data Scientist** at Motion-S (www.motion-s.com) (startup in the mobility area, Luxembourg):
     - Statistical models for driver road accident risk estimation from driver behaviour, contextual and road statistics data
 	- Road network model using graph technologies
 	- Dashboards to present results to prospects (VUE.js)
@@ -120,14 +122,14 @@ Beside data analysis, I can also write reliable code (including webservices and 
 
 - _2014-12 / 2018-09_ : **Data Scientist** at effiCity (www.efficity.com/) (real estate company, France) (working remotely):
     - Real estate estimation algorithm: 30% improvement compared to existing (estimation accuracy)
-	    - Mathematical formulation with parameter fitting on real data
-	    - Implementation with the  **python** stack (numpy, pandas, scipy, sklearn)
-	    - Validation with simulations
-	    - Push to production (python package, model persistence)
+	- Mathematical formulation with parameter fitting on real data
+	- Implementation with the  **python** stack (numpy, pandas, scipy, sklearn)
+	- Validation with simulations
+	- Push to production (python package, model persistence)
     - Statistics:
-	    - Regression algorithm (KNN)
-	    - Function minimization (scipy)
-	    - Clustering to identify cities with similar caracteristics
+	- Regression algorithm (KNN)
+	- Function minimization (scipy)
+	- Clustering to identify cities with similar caracteristics
     - As always, internal note and code documentation
     - Participation to the team projects especially web development (django), including CSS integration and JS (jQuery) scripts
 
