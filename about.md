@@ -11,10 +11,11 @@ You can find more information about my professional experience on my linkedin or
 
 I have completed a PhD in particle physics in 2014 during which I was part of the exciting ATLAS experiment at **CERN**. Analyzing *billions of data events*, we were able to show the existence of a long searched particle, the Higgs boson. Its discovery leads to the [2013 Nobel prize in Physics](https://www.nobelprize.org/prizes/physics/2013/summary/) for the theoreticians who predicted the existence of this particle.
 
-After this PhD, I decided to leave academia to explore diverse fields, still through **data analysis** and **mathematical modeling** that helps solve real-life problems.
+After this PhD, I decided to leave academia to explore diverse fields, still through **data analysis** and **mathematical modeling** that helps solve real-life problems. A few years later, I discovered graphs through the world of graph databases and especially Neo4j, and couldn't stop reasoning in terms of graphs since then. 
 
-I am interested in many topics, with a strong belief in "fair machine learning" and "responsible data science". In my opinion, it goes through teaching and explaining to all the involved people what can and can't be done with data, and what a model result really is, taking into account its **uncertainties**. 
+Since 2021, I have been leading the technical development of SmartGrid, a Canadian startup whose goal is to create a mirrorverse, a digital twin of the real world including peaople and their relationships with the digital assets. I have built the first PoC with a Python backend, a small demo frontend (ReactJS) and deployed everything on GCP.
 
+<!--
 Beside data analysis, I can also write reliable code (including webservices and HTML/CSS/JavaScript) that can be pushed to **production**.
 
 <div class="info">
@@ -27,7 +28,6 @@ Beside data analysis, I can also write reliable code (including webservices and 
 </p>
 </div>
 
-<!--
 <div class="warning text-center text-red">
 <a href="/contact">Let's talk!</a>
 </div>
@@ -56,9 +56,7 @@ Beside data analysis, I can also write reliable code (including webservices and 
 
 - **Database**: SQL (Postgresql, Postgis), graph databases (Neo4j, arangoDB)
 
-- Development: python (pytest, sphinx), ReactJS. I also have some experience with C++ and Java.
-
-- Linux (some server management with ansible), git (gitlab)
+- Development: python (pytest, sphinx), ReactJS. I am also starting to build some stuffs with Rust.
 
 - Cloud: AWS (S3), Google Cloud (Google App Engine)
 
@@ -103,15 +101,16 @@ Beside data analysis, I can also write reliable code (including webservices and 
 
 # Work Experience
 
+- From 2021: **CTO & co-founder** at [SmartGrid](smartgrid.id) (remote company)
 
-- _2020-04 / today_: **Data scientist & backend developer** at Deleev (www.labellevie.com), dark grocery:
-    - Logistics and automation through operation research tools (delivery routes and dispatch based on business constraints)
+- _2020-04 / 2021-07_: **Data scientist & backend developer** at Deleev (www.labellevie.com), dark grocery mainly operating in Paris, France:
+    - Logistics and automation through operation research tools (delivery routes and order dispatch on available drivers based on business constraints)
     - Code migration to newer package versions (including Python (3.4 => 3.8) and Django (1.9 => 2.2))
 
 - _2011 / today_: **Teaching**
     - _2018-_ : remote mentor (python, neo4j, data science, sql)
-    - _2014-_ : private lessons, maths and physics, French A-level equivalent
-    - _2011-2014_: python practical works for undergraduate students
+    - _2014-_ : private lessons, maths and physics, preparation for the French A-level equivalent
+    - _2011-2014_: Python practical works for undergraduate students
 
 
 - _2018-10 / 2020-03_ : **Lead Data Scientist** at Motion-S (www.motion-s.com) (startup in the mobility area, Luxembourg):
