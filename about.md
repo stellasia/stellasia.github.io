@@ -11,31 +11,11 @@ You can find more information about my professional experience on my linkedin or
 
 I have completed a PhD in particle physics in 2014 during which I was part of the exciting ATLAS experiment at **CERN**. Analyzing *billions of data events*, we were able to show the existence of a long searched particle, the Higgs boson. Its discovery leads to the [2013 Nobel prize in Physics](https://www.nobelprize.org/prizes/physics/2013/summary/) for the theoreticians who predicted the existence of this particle.
 
-After this PhD, I decided to leave academia to explore diverse fields, still through **data analysis** and **mathematical modeling** that helps solve real-life problems. A few years later, I discovered graphs through the world of graph databases and especially Neo4j, and couldn't stop reasoning in terms of graphs since then. 
+After this PhD, I decided to move to industry and explore other fields, still through **data analysis** and **mathematical modeling** that helps solve real-life problems. A few years later, I discovered graphs through the world of graph databases, especially Neo4j, and couldn't stop reasoning in terms of graphs since then. 
 
-Since 2021, I have been leading the technical development of SmartGrid, a Canadian startup whose goal is to create a mirrorverse, a digital twin of the real world including peaople and their relationships with the digital assets. I have built the first PoC with a Python backend, a small demo frontend (ReactJS) and deployed everything on GCP.
+In 2021/2022, I have been leading the technical development of SmartGrid, a Canadian startup whose goal is to create a mirrorverse, a digital twin of the real world including peaople and their relationships with the digital assets. I have built the first PoC with a Python backend, a small demo frontend (ReactJS) and deployed everything on GCP.
 
-<!--
-Beside data analysis, I can also write reliable code (including webservices and HTML/CSS/JavaScript) that can be pushed to **production**.
-
-<div class="info">
-<p>Right now, I am mainly interested in topics including but not limited to:
-    <ul>
-        <li>graph data and algorithms to extract meaningful information from it</li>
-	<li>mathematical/statistical modeling</li>
-	<li>bayesian analysis and its applications</li>
-    </ul> 
-</p>
-</div>
-
-<div class="warning text-center text-red">
-<a href="/contact">Let's talk!</a>
-</div>
--->
-
-<!-- <div class="warning"> -->
-<!-- I am available for short freelance missions via <a href="https://www.malt.fr/profile/estellescifo">MALT</a>. -->
-<!-- </div> -->
+Since 2022, I've joined GraphAware as a Senior Machine Learning Engineer, working on exciting applications of graph-related problems.
 
 
 # Tools
@@ -44,7 +24,7 @@ Beside data analysis, I can also write reliable code (including webservices and 
     - Create the model (mathematical formulation)
     - Implementation (efficient code)
     - Validation with simulations (Monte-Carlo techniques)
-    - Visualization (including maps)
+    - Visualization (including maps and graphs)
 
 - **Graph data analysis**:
     - Neo4j graph database (certified): create the data model that best suits your use-case
@@ -54,9 +34,9 @@ Beside data analysis, I can also write reliable code (including webservices and 
 
 - **Web development**: django, HTML, CSS, JS; webservices (RPC, REST, GraphQL)
 
-- **Database**: SQL (Postgresql, Postgis), graph databases (Neo4j, arangoDB)
+- **Database**: graph databases (Neo4j, arangoDB), SQL (Postgresql, Postgis)
 
-- Development: python (pytest, sphinx), ReactJS. I am also starting to build some stuffs with Rust.
+- Development: Python (including testing and packaging), ReactJS. I am also starting to build some stuffs with Rust and Flutter.
 
 - Cloud: AWS (S3), Google Cloud (Google App Engine)
 
@@ -76,6 +56,8 @@ Beside data analysis, I can also write reliable code (including webservices and 
 
 # Publications
 
+- _2023_: **'Graph Data Science with Neo4j' book**: WIP
+
 - _2020-09_: **'Hands-on Graph Analytics with Neo4j' book** at [Packt Publishing](https://www.packtpub.com/data/hands-on-graph-analytics-with-neo4j). Available on [Amazon](https://www.amazon.com/gp/product/B08FBJ3B1S).
 
 ![Book cover](/img/51vPQ6l1RdL.jpg){:style="width: 20%"}
@@ -87,6 +69,10 @@ Beside data analysis, I can also write reliable code (including webservices and 
 
 
 # Talks
+
+- 2022-11: [NODES 2022](https://hopin.com/events/nodes-2022/registration) Annual online Conference organized by Neo4j: (I was a featured speaker ^^)
+    - _Building a Neo4j/Python Object Graph Mapper_ step by step guide leveraging Cypher map projection and Python dynamic typing
+    - Recording available here: https://youtu.be/DKziks5jQvc
 
 - 2020-11: I was invited by the [WinDSML Meetup group from Bussels](https://www.meetup.com/fr-FR/Brussels-Women-in-Machine-Learning-and-Data-Science) to give a talk about:
     - _Graph Databases for Machine Learning_: [Youtube](https://www.youtube.com/watch?v=0QGqU8I7gTA)
@@ -101,7 +87,10 @@ Beside data analysis, I can also write reliable code (including webservices and 
 
 # Work Experience
 
-- From 2021: **CTO & co-founder** at [SmartGrid](smartgrid.id) (remote company)
+- From 2022: Senior Machine Learning Engineer at GraphAware, neo4j partner
+
+- 2021-2022: **Technical co-founder** at [SmartGrid](smartgrid.id) (remote)
+   - Built solution prototype using Python & Rust for the backend, ReactJS for front-end, deployed on GCP
 
 - _2020-04 / 2021-07_: **Data scientist & backend developer** at Deleev (www.labellevie.com), dark grocery mainly operating in Paris, France:
     - Logistics and automation through operation research tools (delivery routes and order dispatch on available drivers based on business constraints)
